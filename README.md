@@ -9,8 +9,8 @@ Internal distribution for the StudioSatellite project.
 | Path | Contents |
 |------|----------|
 | `app/` | iOS app — `StudioSattelite.ipa` + itms-services manifest |
-| `firmware/` | ESP32 firmware binaries |
-| `installers/` | Desktop installers (empty for now) |
+| `firmware/` | Latest AMS7 core gateway firmware (`ams7_esp32.bin`) |
+| `installers/` | Desktop installers — `AMS7-Studio-latest-setup.exe` |
 | `questionnaires/` | English / Dutch questionnaire JSON |
 
 ## Questionnaire URLs used by the iPad app
