@@ -1,0 +1,872 @@
+{
+  "version": 3,
+  "language": "en",
+  "title": "AMS Studio Participant Questionnaires (EN)",
+  "sourceMd": "Qualtrics Questions.md",
+  "fetchedAt": "2026-08-18T00:00:00Z",
+  "slots": [
+    {
+      "id": "q0",
+      "title": "Intake — new participant",
+      "introText": "Welcome the participant, capture the device and identity, and confirm consent before any study procedure.",
+      "questions": [
+        {
+          "id": "intake_device",
+          "text": "Device identifier assigned to this participant",
+          "type": "open",
+          "validation": "string",
+          "section": "Intake"
+        },
+        {
+          "id": "intake_participant_id",
+          "text": "Participant ID (per Lowlands registration)",
+          "type": "open",
+          "validation": "string",
+          "section": "Intake"
+        },
+        {
+          "id": "intake_nickname",
+          "text": "What nickname would you like to be addressed by?",
+          "type": "open",
+          "validation": "string",
+          "section": "Intake"
+        },
+        {
+          "id": "intake_electrode_distance_cm",
+          "text": "Distance between ECG electrodes (cm)",
+          "type": "range",
+          "validation": "numeric",
+          "range": [0, 50],
+          "rangeLabels": ["0 cm", "50 cm"],
+          "section": "Intake"
+        },
+        {
+          "id": "intake_photo_consent",
+          "text": "I consent to having a profile photo taken for the operator cockpit.",
+          "type": "constrained-choice",
+          "validation": "yes = 1, no = 0",
+          "options": ["Yes", "No"],
+          "section": "Intake"
+        },
+        {
+          "id": "intake_photo_capture",
+          "text": "Take a profile photo with the webcam.",
+          "type": "camera",
+          "validation": "string",
+          "section": "Intake",
+          "dependencies": [
+            { "questionId": "intake_photo_consent", "condition": { "type": "equals", "value": "Yes" } }
+          ]
+        },
+        {
+          "id": "intake_emoji_choice",
+          "text": "Pick an emoji that captures how you feel right now.",
+          "type": "open",
+          "validation": "string",
+          "section": "Intake"
+        }
+      ]
+    },
+    {
+      "id": "q1",
+      "title": "Session 1 — Baseline & hair cortisol",
+      "introText": "There are occasional minor and major challenges in daily life that can constantly reoccur, to which one can sometimes not get used to, and which can be more or less burdensome. Please tick whether and how strongly you have been affected by the following annoyances or inconveniences OVER THE PAST MONTH.",
+      "questions": [
+        {
+          "id": "major_stressor_int",
+          "text": "Please indicate the extent to which you were affected by a Major life stressor (e.g., loss of a loved one, getting fired, moving house).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_health_int",
+          "text": "Please indicate the extent to which you were affected by Health problems (e.g., diseases, chronic sufferings).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_finance_int",
+          "text": "Please indicate the extent to which you were affected by Financial restrictions (e.g., low income, installments).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_work_int",
+          "text": "Please indicate the extent to which you were affected by Dissatisfaction with education/occupation (e.g., examinations, work overload).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_sec_empl_int",
+          "text": "Please indicate the extent to which you were affected by Difficulties with (secondary) employment (e.g., compatibility with school/college, high responsibility, noise pollution).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_housing_int",
+          "text": "Please indicate the extent to which you were affected by Dissatisfaction with housing situation (e.g., noise, small flat).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_famfriends_int",
+          "text": "Please indicate the extent to which you were affected by Frequent contradictions, conflicts, tensions with close persons (e.g., family, household, friends, partner).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_acquaintances_int",
+          "text": "Please indicate the extent to which you were affected by Frequent contradictions, conflicts, tensions with other persons (e.g., colleagues, fellow students, neighbours, tenants, landlords).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_soc_obl_int",
+          "text": "Please indicate the extent to which you were affected by Difficulties with social obligations (e.g., associations, organisations).",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "dsst_other_int",
+          "text": "Please indicate the extent to which you were affected by Another burden/stressor not yet mentioned.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very much"],
+          "section": "DSST — Daily life stressors (past month)"
+        },
+        {
+          "id": "erss_cog_reapp",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to think about the situation differently.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation",
+          "notes": "verbatim from MD: 'Likert scale 1-5 (not at all, rarely, sometimes, often, very often)'"
+        },
+        {
+          "id": "erss_distraction",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to shift what I am thinking about to something different.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation"
+        },
+        {
+          "id": "erss_accept",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to accept the experience.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation"
+        },
+        {
+          "id": "erss_suppression",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying not to show how I feel.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation"
+        },
+        {
+          "id": "erss_prob_solving",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to think of solutions to the event that caused the emotion.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation"
+        },
+        {
+          "id": "erss_calming",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to relax my muscles.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation"
+        },
+        {
+          "id": "erss_savoring",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to capture and hold on to the emotion I am feeling at the moment.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation"
+        },
+        {
+          "id": "erss_rumination",
+          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to repeatedly analyze the situation that made me feel this way.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "ERSS — Emotion regulation"
+        },
+        {
+          "id": "cerq_self_blame",
+          "text": "In unpleasant, stressful, or threatening situations I feel that I am the one who is responsible for what has happened.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "CERQ — Cognitive emotion regulation"
+        },
+        {
+          "id": "cerq_catastrophize",
+          "text": "In unpleasant, stressful, or threatening situations I keep thinking about how terrible it is what I have experienced.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "CERQ — Cognitive emotion regulation"
+        },
+        {
+          "id": "cerq_externalize",
+          "text": "In unpleasant, stressful, or threatening situations I feel that others are responsible for what has happened.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["not at all", "very often"],
+          "section": "CERQ — Cognitive emotion regulation"
+        },
+        {
+          "id": "hcs_attentiveness",
+          "text": "In the past month I was generally attentive to my inner feelings about my health.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["does not describe me", "describes me extremely well"],
+          "section": "HCS — Health consciousness"
+        },
+        {
+          "id": "hcs_reflection",
+          "text": "In the past month I reflected about my health.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["does not describe me", "describes me extremely well"],
+          "section": "HCS — Health consciousness"
+        },
+        {
+          "id": "hcs_monitoring",
+          "text": "In the past month I noticed how I felt physically as I went through the day.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["does not describe me", "describes me extremely well"],
+          "section": "HCS — Health consciousness"
+        },
+        {
+          "id": "hair_sample_yn",
+          "text": "I will donate a hair sample.",
+          "type": "constrained-choice",
+          "validation": "yes = 1, no = 0, done = 2",
+          "options": [
+            "Yes",
+            "I already did this in the hair salon at Lowlands Science and give permission to share that sample with the researchers of Stress Roulette.",
+            "No"
+          ],
+          "section": "Hair cortisol"
+        },
+        {
+          "id": "hair_dye_yn",
+          "text": "Has your hair been dyed, bleached, or permed in the previous 6 months?",
+          "type": "constrained-choice",
+          "validation": "yes = 1, no = 0",
+          "options": ["Yes", "No"],
+          "section": "Hair cortisol",
+          "notes": "skip to end of slot when No (per MD: 'skip to end if hair_dye_YN = 0')"
+        },
+        {
+          "id": "hair_dye_recency",
+          "text": "How long ago did you do this?",
+          "type": "constrained-choice",
+          "validation": "<1mo = 1, 1- 2 mo = 2, 2-3mo = 3, >3MO =4",
+          "options": [
+            "<1 month ago",
+            "1-2 months ago",
+            "2-3 months ago",
+            ">3 months ago"
+          ],
+          "section": "Hair cortisol",
+          "dependencies": [
+            { "questionId": "hair_dye_yn", "condition": { "type": "equals", "value": "Yes" } }
+          ],
+          "notes": "MD: 'skip to next q iIf hair_dye_YN = 0no selected skip'"
+        },
+        {
+          "id": "hair_wash_freq",
+          "text": "How often do you normally wash your hair a week?",
+          "type": "constrained-choice",
+          "validation": "1, 2,3 ,4",
+          "options": [
+            "<1 time",
+            "1-2 times a week",
+            "2-3 times a week",
+            ">3 times a week"
+          ],
+          "section": "Hair cortisol"
+        },
+        {
+          "id": "hair_steroid_yn",
+          "text": "Did you use corticosteroids during the past three months (such as prednisone, advair, nasonex, symbicort, fluticasone, avamys, pulmicort, rhinocort, beclometasone, triamcinolon, daktacort, hydrocortisone)?",
+          "type": "constrained-choice-open",
+          "validation": "no 0 yes 1",
+          "options": [
+            "No",
+            "Yes, namely [open text]"
+          ],
+          "section": "Hair cortisol",
+          "notes": "MD: 'Skip if hair_steroid_YN=0no selected'"
+        },
+        {
+          "id": "hair_steroid_substance",
+          "text": "Corticosteroid substance(s) used",
+          "type": "open",
+          "validation": "string",
+          "section": "Hair cortisol",
+          "dependencies": [
+            { "questionId": "hair_steroid_yn", "condition": { "type": "equals", "value": "Yes, namely [open text]" } }
+          ],
+          "notes": "verbatim from MD: 'stringOPEN TEXT'"
+        },
+        {
+          "id": "hair_steroid_method",
+          "text": "What kind of corticosteroids did you use?",
+          "type": "constrained-choice",
+          "validation": "1-7",
+          "options": [
+            "Tablets",
+            "Inhalation",
+            "Cream/ointment on scalp",
+            "Cream/ointment elsewhere on the body",
+            "Nasal Spray",
+            "Injection in joint(s) (for example knee, hip, or shoulder)",
+            "Other"
+          ],
+          "section": "Hair cortisol",
+          "dependencies": [
+            { "questionId": "hair_steroid_yn", "condition": { "type": "equals", "value": "Yes, namely [open text]" } }
+          ]
+        },
+        {
+          "id": "hair_steroid_cream_loc",
+          "text": "Where on the body did you apply the cream/ointment?",
+          "type": "open",
+          "validation": "string",
+          "section": "Hair cortisol",
+          "dependencies": [
+            { "questionId": "hair_steroid_method", "condition": { "type": "equals", "value": "Cream/ointment elsewhere on the body" } }
+          ]
+        },
+        {
+          "id": "hair_steroid_other_method",
+          "text": "Which other method?",
+          "type": "open",
+          "validation": "string",
+          "section": "Hair cortisol",
+          "dependencies": [
+            { "questionId": "hair_steroid_method", "condition": { "type": "equals", "value": "Other" } }
+          ]
+        },
+        {
+          "id": "hair_contraception",
+          "text": "Do you use hormonal/long-lasting contraception (condoms not included)?",
+          "type": "constrained-choice-open",
+          "validation": "No = 0, 1, 2, 3, 4 5 = other",
+          "options": [
+            "No",
+            "Yes, contraceptive pills: ethinylestradiol/levonorgestrel or ethinylestradiol/desogestrel",
+            "Yes, other contraceptive pill (name)",
+            "Yes, hormonal intrauterine device (Mirena)",
+            "Yes, copper intrauterine device (coil)",
+            "Other, (please specify)"
+          ],
+          "section": "Hair cortisol"
+        },
+        {
+          "id": "hair_contraception_otherpill",
+          "text": "Other contraceptive pill name",
+          "type": "open",
+          "validation": "string",
+          "section": "Hair cortisol",
+          "dependencies": [
+            { "questionId": "hair_contraception", "condition": { "type": "equals", "value": "Yes, other contraceptive pill (name)" } }
+          ]
+        },
+        {
+          "id": "hair_contraception_othermethod",
+          "text": "Other contraception method (please specify)",
+          "type": "open",
+          "validation": "string",
+          "section": "Hair cortisol",
+          "dependencies": [
+            { "questionId": "hair_contraception", "condition": { "type": "equals", "value": "Other, (please specify)" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "title": "Mood scale — per session",
+      "introText": "How do you feel RIGHT NOW? Capture once per session: start, anticipation, presentation, recovery.",
+      "questions": [
+        {
+          "id": "mq_stress",
+          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [-5, 5],
+          "rangeLabels": ["very relaxed", "very nervous"],
+          "section": "Mood scale"
+        },
+        {
+          "id": "mq_arousal",
+          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [-5, 5],
+          "rangeLabels": ["very sluggish", "very active"],
+          "section": "Mood scale"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "title": "End questionnaire — intervention, demographics, BAT, lifestyle",
+      "introText": "Almost done! Finally, we’d like a bit of background information on your life, and the state in which you arrived at our experiment.",
+      "questions": [
+        {
+          "id": "interv_attractive",
+          "text": "Participating in this program is attractive to me.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program"
+        },
+        {
+          "id": "interv_helpful",
+          "text": "Participating in this program would be helpful for me to manage daily stress.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program"
+        },
+        {
+          "id": "interv_approval",
+          "text": "People important to me would approve of me doing this program.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program"
+        },
+        {
+          "id": "interv_goodidea",
+          "text": "Most people who matter to me would think participating in this program is a good idea.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program"
+        },
+        {
+          "id": "interv_similar",
+          "text": "People similar to me would participate in this program.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program"
+        },
+        {
+          "id": "interv_confidence",
+          "text": "I am confident that I could participate in this program.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program"
+        },
+        {
+          "id": "interv_easy",
+          "text": "Participating in this program would be easy for me.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program"
+        },
+        {
+          "id": "interv_contact_yn",
+          "text": "May we use your email address to contact you about the program?",
+          "type": "constrained-choice",
+          "validation": "No 0  Yes1",
+          "options": ["No", "Yes"],
+          "section": "Intervention program",
+          "notes": "MD: 'validation numeric No 0  Yes1' (verbatim, missing colon)"
+        },
+        {
+          "id": "interv_intent",
+          "text": "I intend to participate in this program intervention.",
+          "type": "range",
+          "validation": "numeric 1-5",
+          "range": [1, 5],
+          "rangeLabels": ["strongly disagree", "strongly agree"],
+          "section": "Intervention program",
+          "dependencies": [
+            { "questionId": "interv_contact_yn", "condition": { "type": "equals", "value": "Yes" } }
+          ]
+        },
+        {
+          "id": "interv_why",
+          "text": "Could you expand on why you do / do not wish to participate?",
+          "type": "open",
+          "validation": "string",
+          "section": "Intervention program",
+          "notes": "MD: 'MULTIPLE LINES OPEN TEXT'"
+        },
+        {
+          "id": "demog_age",
+          "text": "What is your age?",
+          "type": "range",
+          "validation": "numeric 16-80 scale (single increments)",
+          "range": [16, 80],
+          "rangeLabels": ["16", "80"],
+          "section": "Demographics"
+        },
+        {
+          "id": "demog_gender",
+          "text": "Which of the following options applies to you the best?",
+          "type": "constrained-choice-open",
+          "validation": "1, 2, 3, 4",
+          "options": [
+            "Woman",
+            "Man",
+            "Non-binary or Genderfluid",
+            "I choose to identify as"
+          ],
+          "section": "Demographics"
+        },
+        {
+          "id": "demog_gender_other",
+          "text": "Self-identified gender (open text)",
+          "type": "open",
+          "validation": "string",
+          "section": "Demographics",
+          "dependencies": [
+            { "questionId": "demog_gender", "condition": { "type": "equals", "value": "I choose to identify as" } }
+          ],
+          "notes": "verbatim from MD: 'demog_gender_otherOPEN TEXT'"
+        },
+        {
+          "id": "demog_sex",
+          "text": "What sex were you assigned at birth (for example, on your birth certificate)?",
+          "type": "constrained-choice",
+          "validation": "1, 2, 3, 4, 5",
+          "options": [
+            "Woman",
+            "Man",
+            "Sex could not be determined/registered (also known as intersex)",
+            "I don’t know",
+            "Prefer not to answer"
+          ],
+          "section": "Demographics"
+        },
+        {
+          "id": "demog_height_cm",
+          "text": "What is your height (cm)?",
+          "type": "range",
+          "validation": "numeric 50-300",
+          "range": [50, 300],
+          "rangeLabels": ["50 cm", "300 cm"],
+          "section": "Demographics",
+          "notes": "MD: '50100cm-300cm' (interpreted as 50-300)"
+        },
+        {
+          "id": "demog_weight_kg",
+          "text": "What is your weight (kg)?",
+          "type": "range",
+          "validation": "numeric 30-200",
+          "range": [30, 200],
+          "rangeLabels": ["30 kg", "200 kg"],
+          "section": "Demographics"
+        },
+        {
+          "id": "demog_employment",
+          "text": "What’s your current employment status? (multiple answers possible)",
+          "type": "multi-choice",
+          "validation": "1, 2, 3, 4",
+          "options": [
+            "Employed",
+            "Student",
+            "Unemployed",
+            "Not on job market/looking for work (e.g. gap year, retired, homemaker)"
+          ],
+          "answerFields": {
+            "Employed": "employment_employed",
+            "Student": "employment_student",
+            "Unemployed": "employment_unemployed",
+            "Not on job market/looking for work (e.g. gap year, retired, homemaker)": "employment_not_on_market"
+          },
+          "section": "Demographics"
+        },
+        {
+          "id": "demog_work_hours",
+          "text": "How many hours per week do you do paid work?",
+          "type": "range",
+          "validation": "numeric 0-80",
+          "range": [0, 80],
+          "rangeLabels": ["0", "80"],
+          "section": "Demographics",
+          "dependencies": [
+            { "questionId": "demog_employment", "condition": { "type": "containsAny", "value": ["Employed", "Student"] } }
+          ],
+          "notes": "MD: 'skip if demog_employment = unemployed or not on job market'"
+        },
+        {
+          "id": "demog_edu_lvl",
+          "text": "What is your highest achieved or current education?",
+          "type": "constrained-choice",
+          "validation": "1-5",
+          "options": [
+            "No formal education",
+            "Primary education",
+            "Secondary education (VMBO, HAVO, VWO)",
+            "Vocational education (MBO)",
+            "Higher education (Bachelor, Master, HBO)"
+          ],
+          "section": "Demographics"
+        },
+        {
+          "id": "bat_ex1",
+          "text": "At work/study, I feel mentally exhausted.",
+          "type": "range",
+          "validation": "numeric 1-5 (never, rarely, sometimes, often, always)",
+          "range": [1, 5],
+          "rangeLabels": ["never", "always"],
+          "section": "BAT — Burnout Assessment Tool",
+          "dependencies": [
+            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+          ],
+          "notes": "MD: 'Logic: skip if demog_work_hours = 0 or missing'"
+        },
+        {
+          "id": "bat_md1",
+          "text": "I struggle to find any enthusiasm for my work/study.",
+          "type": "range",
+          "validation": "numeric 1-5 (never, rarely, sometimes, often, always)",
+          "range": [1, 5],
+          "rangeLabels": ["never", "always"],
+          "section": "BAT — Burnout Assessment Tool",
+          "dependencies": [
+            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+          ]
+        },
+        {
+          "id": "bat_ci4",
+          "text": "When I’m working/studying, I have trouble concentrating.",
+          "type": "range",
+          "validation": "numeric 1-5 (never, rarely, sometimes, often, always)",
+          "range": [1, 5],
+          "rangeLabels": ["never", "always"],
+          "section": "BAT — Burnout Assessment Tool",
+          "dependencies": [
+            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+          ]
+        },
+        {
+          "id": "bat_ei5",
+          "text": "At work/study, I may overact unintentionally.",
+          "type": "range",
+          "validation": "numeric 1-5 (never, rarely, sometimes, often, always)",
+          "range": [1, 5],
+          "rangeLabels": ["never", "always"],
+          "section": "BAT — Burnout Assessment Tool",
+          "dependencies": [
+            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+          ]
+        },
+        {
+          "id": "demog_hours_slept",
+          "text": "How many hours did you sleep last night?",
+          "type": "range",
+          "validation": "numeric 0-15",
+          "range": [0, 15],
+          "rangeLabels": ["0", "15"],
+          "section": "Lifestyle"
+        },
+        {
+          "id": "demog_substances_used",
+          "text": "Which substances have you used since waking? (multiple answers possible)",
+          "type": "multi-choice",
+          "validation": "None = 0",
+          "options": [
+            "None",
+            "Alcohol",
+            "Nicotine",
+            "Caffeine",
+            "Hash or weed",
+            "MDMA/ecstasy (XTC)",
+            "Laughing gas",
+            "Cocaine",
+            "Ketamine",
+            "3MMC or other cathinones",
+            "Sleep medication or sedatives",
+            "Speed",
+            "Magic mushrooms/truffles/LSD/2C-B or other psychedelics",
+            "GHB",
+            "ADHD medication"
+          ],
+          "answerFields": {
+            "None": "substance_none",
+            "Alcohol": "substance_alc",
+            "Nicotine": "substance_nic",
+            "Caffeine": "substance_caf",
+            "Hash or weed": "substance_thc",
+            "MDMA/ecstasy (XTC)": "substance_mdma",
+            "Laughing gas": "substance_n2o",
+            "Cocaine": "substance_cocaine",
+            "Ketamine": "substance_keta",
+            "3MMC or other cathinones": "substance_3mmc",
+            "Sleep medication or sedatives": "substance_sleep_med",
+            "Speed": "substance_speed",
+            "Magic mushrooms/truffles/LSD/2C-B or other psychedelics": "substance_psychedelic",
+            "GHB": "substance_ghb",
+            "ADHD medication": "substance_adhd_med"
+          },
+          "section": "Lifestyle"
+        },
+        {
+          "id": "demog_smoke_ever",
+          "text": "Did you ever smoke cigarettes, cigars, pipe or other tobacco products daily?",
+          "type": "constrained-choice",
+          "validation": "No = 0, Yes, used to = 2, Yes = 1",
+          "options": [
+            "No, I never smoked",
+            "Yes, I used to smoke",
+            "Yes"
+          ],
+          "section": "Lifestyle"
+        },
+        {
+          "id": "demog_smoke_quit",
+          "text": "How many years ago did you quit?",
+          "type": "open",
+          "validation": "string",
+          "section": "Lifestyle",
+          "dependencies": [
+            { "questionId": "demog_smoke_ever", "condition": { "type": "equals", "value": "Yes, I used to smoke" } }
+          ],
+          "notes": "MD: '[demog_smoke_quit][OPEN TEXT]'"
+        },
+        {
+          "id": "demog_smoke_duration",
+          "text": "For how many years in total have you smoked?",
+          "type": "open",
+          "validation": "string",
+          "section": "Lifestyle",
+          "dependencies": [
+            { "questionId": "demog_smoke_ever", "condition": { "type": "containsAny", "value": ["Yes, I used to smoke", "Yes"] } }
+          ],
+          "notes": "MD: 'demog_smoke_durationOPEN TEXT'"
+        },
+        {
+          "id": "demog_smoke_today_num",
+          "text": "How many cigarettes have you smoked since waking up?",
+          "type": "open",
+          "validation": "string",
+          "section": "Lifestyle",
+          "dependencies": [
+            { "questionId": "demog_smoke_ever", "condition": { "type": "equals", "value": "Yes" } }
+          ]
+        },
+        {
+          "id": "demog_smoke_week_num",
+          "text": "How many cigarettes do you smoke per week?",
+          "type": "open",
+          "validation": "string",
+          "section": "Lifestyle",
+          "dependencies": [
+            { "questionId": "demog_smoke_ever", "condition": { "type": "equals", "value": "Yes" } }
+          ]
+        },
+        {
+          "id": "demog_alc_freq",
+          "text": "How often do you consume alcoholic beverages?",
+          "type": "constrained-choice",
+          "validation": "Never = 0",
+          "options": [
+            "Never",
+            "Once per month or less",
+            "2 to 4 times per month",
+            "2 to 3 times per week",
+            "4 times a week or more"
+          ],
+          "section": "Lifestyle"
+        },
+        {
+          "id": "demog_alc_today_num",
+          "text": "How many glasses of alcoholic beverage have you consumed since waking?",
+          "type": "range",
+          "validation": "numeric 0-150",
+          "range": [0, 150],
+          "rangeLabels": ["0", "150"],
+          "section": "Lifestyle",
+          "dependencies": [
+            { "questionId": "demog_alc_freq", "condition": { "type": "notEquals", "value": "Never" } }
+          ],
+          "notes": "MD: 'skip next two if previous is never'"
+        },
+        {
+          "id": "demog_alc_weekly_num",
+          "text": "How many glasses of alcoholic beverage do you consume in a typical week?",
+          "type": "range",
+          "validation": "numeric 0-150",
+          "range": [0, 150],
+          "rangeLabels": ["0", "150"],
+          "section": "Lifestyle",
+          "dependencies": [
+            { "questionId": "demog_alc_freq", "condition": { "type": "notEquals", "value": "Never" } }
+          ],
+          "notes": "MD: '40+' interpreted as upper bound 150 standard glasses"
+        }
+      ]
+    }
+  ]
+}

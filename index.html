@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Studio Essentials</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #f7f7f8;
+            --fg: #1c1c1e;
+            --card: #ffffff;
+            --accent: #007aff;
+            --accent-hover: #0a84ff;
+            --muted: #6e6e73;
+            --border: rgba(0, 0, 0, 0.08);
+            --section-app: linear-gradient(135deg, #5856d6, #af52de);
+            --section-firmware: linear-gradient(135deg, #34c759, #5ac8fa);
+            --section-installers: linear-gradient(135deg, #ff9500, #ff2d55);
+            --section-questions: linear-gradient(135deg, #ff3b30, #ff9500);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --fg: #f5f5f7;
+                --card: #1c1c1e;
+                --accent: #0a84ff;
+                --accent-hover: #409cff;
+                --muted: #98989d;
+                --border: rgba(255, 255, 255, 0.1);
+            }
+        }
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            min-height: 100vh;
+            min-height: 100dvh;
+            padding: 32px 20px 64px;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 {
+            font-size: 36px;
+            font-weight: 800;
+            margin: 0 0 8px;
+            letter-spacing: -0.8px;
+        }
+        .subtitle {
+            color: var(--muted);
+            font-size: 16px;
+            margin: 0;
+        }
+        .section {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+        .section-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+            flex-shrink: 0;
+        }
+        .section-app .section-icon { background: var(--section-app); }
+        .section-firmware .section-icon { background: var(--section-firmware); }
+        .section-installers .section-icon { background: var(--section-installers); }
+        .section-questions .section-icon { background: var(--section-questions); }
+        .section-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -0.3px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 14px;
+            margin: 2px 0 0;
+        }
+        .file-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .file {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 12px 14px;
+            border-radius: 12px;
+            margin-bottom: 6px;
+            background: rgba(0, 0, 0, 0.02);
+            border: 1px solid transparent;
+            transition: background 0.1s ease;
+        }
+        @media (prefers-color-scheme: dark) {
+            .file { background: rgba(255, 255, 255, 0.04); }
+        }
+        .file:hover { background: rgba(0, 0, 0, 0.04); }
+        @media (prefers-color-scheme: dark) {
+            .file:hover { background: rgba(255, 255, 255, 0.08); }
+        }
+        .file:last-child { margin-bottom: 0; }
+        .file-meta { flex: 1; min-width: 0; }
+        .file-name {
+            font-weight: 600;
+            font-size: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .file-info {
+            color: var(--muted);
+            font-size: 12px;
+            margin-top: 2px;
+        }
+        .file-actions { display: flex; gap: 8px; flex-shrink: 0; }
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.15s ease, transform 0.1s ease;
+            font-family: inherit;
+        }
+        .btn:hover { background: var(--accent-hover); }
+        .btn:active { transform: scale(0.97); }
+        .btn-secondary {
+            background: rgba(0, 0, 0, 0.05);
+            color: var(--fg);
+        }
+        @media (prefers-color-scheme: dark) {
+            .btn-secondary { background: rgba(255, 255, 255, 0.1); }
+        }
+        .btn-primary {
+            padding: 12px 20px;
+            font-size: 15px;
+            border-radius: 12px;
+            width: 100%;
+            text-align: center;
+        }
+        .empty {
+            color: var(--muted);
+            font-size: 14px;
+            font-style: italic;
+            padding: 8px 14px;
+            text-align: center;
+        }
+        .note {
+            margin-top: 14px;
+            padding: 12px 14px;
+            background: rgba(255, 149, 0, 0.08);
+            border-radius: 10px;
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+        footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 12px;
+            margin-top: 32px;
+            line-height: 1.6;
+        }
+        footer kbd {
+            background: var(--border);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Studio Essentials</h1>
+            <p class="subtitle">Internal builds, firmware, installers, and questionnaires for the StudioSatellite project.</p>
+        </header>
+
+        <section class="section section-app">
+            <div class="section-header">
+                <div class="section-icon">📡</div>
+                <div>
+                    <h2 class="section-title">StudioSatellite iPad App</h2>
+                    <p class="section-desc">iOS app for managing study participants</p>
+                </div>
+            </div>
+            <a class="btn btn-primary" href="itms-services://?action=download-manifest&url=https://drb0rk.github.io/studio-essentials/app/manifest.plist">
+                Install on this iPad
+            </a>
+            <div class="note">
+                <strong>Tap the button above on the iPad you want to install on.</strong>
+                iOS will show an install sheet. After install, trust the developer profile in
+                Settings → General → VPN & Device Management.
+                The device must be registered on team <kbd>L34UB8AH3J</kbd>.
+            </div>
+            <ul class="file-list" style="margin-top: 14px;">
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">StudioSattelite.ipa</div>
+                        <div class="file-info">Direct download · 2.6 MB · v1.0</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="app/StudioSattelite.ipa" download>Download</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section section-firmware">
+            <div class="section-header">
+                <div class="section-icon">🔧</div>
+                <div>
+                    <h2 class="section-title">Firmware</h2>
+                    <p class="section-desc">ESP32 firmware binaries for the wearables</p>
+                </div>
+            </div>
+            <ul class="file-list">
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">latest.bin</div>
+                        <div class="file-info">1.3 MB</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="firmware/latest.bin" download>Download</a>
+                    </div>
+                </li>
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">latest-esp32c3.bin</div>
+                        <div class="file-info">1.2 MB</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="firmware/latest-esp32c3.bin" download>Download</a>
+                    </div>
+                </li>
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">bp-v0.1.4.bin</div>
+                        <div class="file-info">1.3 MB</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="firmware/bp-v0.1.4.bin" download>Download</a>
+                    </div>
+                </li>
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">bp-v0.1.3.bin</div>
+                        <div class="file-info">1.3 MB</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="firmware/bp-v0.1.3.bin" download>Download</a>
+                    </div>
+                </li>
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">bp-1.2.3.bin</div>
+                        <div class="file-info">1.3 MB</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="firmware/bp-1.2.3.bin" download>Download</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section section-installers">
+            <div class="section-header">
+                <div class="section-icon">💿</div>
+                <div>
+                    <h2 class="section-title">Installers</h2>
+                    <p class="section-desc">Desktop installers for Studio and tooling</p>
+                </div>
+            </div>
+            <p class="empty">No installers uploaded yet.</p>
+        </section>
+
+        <section class="section section-questions">
+            <div class="section-header">
+                <div class="section-icon">📋</div>
+                <div>
+                    <h2 class="section-title">Questionnaires</h2>
+                    <p class="section-desc">JSON questionnaires fetched by the iPad app</p>
+                </div>
+            </div>
+            <ul class="file-list">
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">questionnaires.en.json</div>
+                        <div class="file-info">English · 34 KB</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="questionnaires/questionnaires.en.json" download>Download</a>
+                    </div>
+                </li>
+                <li class="file">
+                    <div class="file-meta">
+                        <div class="file-name">questionnaires.nl.json</div>
+                        <div class="file-info">Dutch · 34 KB</div>
+                    </div>
+                    <div class="file-actions">
+                        <a class="btn btn-secondary" href="questionnaires/questionnaires.nl.json" download>Download</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            Hosted via GitHub Pages · repo: <a href="https://github.com/DrB0rk/studio-essentials" style="color: var(--accent);">DrB0rk/studio-essentials</a><br>
+            Direct raw URLs use <code style="font-size: 11px;">raw.githubusercontent.com</code>
+        </footer>
+    </div>
+</body>
+</html>
