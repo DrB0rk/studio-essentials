@@ -104,7 +104,7 @@
         },
         {
           "id": "DSST_HEALTH_INT",
-          "text": "Please indicate the extent to which you were affected by Health problems (e.g., diseases, chronic sufferings).",
+          "text": "Health problems (e.g., diseases, chronic sufferings).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -120,7 +120,7 @@
         },
         {
           "id": "DSST_FINANCE_INT",
-          "text": "Please indicate the extent to which you were affected by Financial restrictions (e.g., low income, installments).",
+          "text": "Financial restrictions (e.g., low income, installments).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -136,7 +136,7 @@
         },
         {
           "id": "DSST_WORK_INT",
-          "text": "Please indicate the extent to which you were affected by Dissatisfaction with education/occupation (e.g., examinations, work overload).",
+          "text": "Dissatisfaction with education/occupation (e.g., examinations, work overload).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -152,7 +152,7 @@
         },
         {
           "id": "DSST_SEC_EMPL_INT",
-          "text": "Please indicate the extent to which you were affected by Difficulties with (secondary) employment (e.g., compatibility with school/college, high responsibility, noise pollution).",
+          "text": "Difficulties with (secondary) employment (e.g., compatibility with school/college, high responsibility, noise pollution).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -168,7 +168,7 @@
         },
         {
           "id": "DSST_HOUSING_INT",
-          "text": "Please indicate the extent to which you were affected by Dissatisfaction with housing situation (e.g., noise, small flat).",
+          "text": "Dissatisfaction with housing situation (e.g., noise, small flat).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -184,7 +184,7 @@
         },
         {
           "id": "DSST_FAMFRIENDS_INT",
-          "text": "Please indicate the extent to which you were affected by Frequent contradictions, conflicts, tensions with close persons (e.g., family, household, friends, partner).",
+          "text": "Frequent contradictions, conflicts, tensions with close persons (e.g., family, household, friends, partner).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -200,7 +200,7 @@
         },
         {
           "id": "DSST_ACQUAINTANCES_INT",
-          "text": "Please indicate the extent to which you were affected by Frequent contradictions, conflicts, tensions with other persons (e.g., colleagues, fellow students, neighbours, tenants, landlords).",
+          "text": "Frequent contradictions, conflicts, tensions with other persons (e.g., colleagues, fellow students, neighbours, tenants, landlords).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -216,7 +216,7 @@
         },
         {
           "id": "DSST_SOC_OBL_INT",
-          "text": "Please indicate the extent to which you were affected by Difficulties with social obligations (e.g., associations, organisations).",
+          "text": "Difficulties with social obligations (e.g., associations, organisations).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -232,7 +232,7 @@
         },
         {
           "id": "DSST_OTHER_INT",
-          "text": "Please indicate the extent to which you were affected by Another burden/stressor not yet mentioned.",
+          "text": "Another burden/stressor not yet mentioned.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -248,7 +248,7 @@
         },
         {
           "id": "ERSS_REAPP",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to think about the situation differently.",
+          "text": "think about the situation differently.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -265,7 +265,7 @@
         },
         {
           "id": "ERSS_DISTRACTION",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to shift what I am thinking about to something different.",
+          "text": "shift what I am thinking about to something different.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -281,7 +281,7 @@
         },
         {
           "id": "ERSS_ACCEPT",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to accept the experience.",
+          "text": "accept the experience.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -313,7 +313,7 @@
         },
         {
           "id": "ERSS_PROB_SOLVING",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to think of solutions to the event that caused the emotion.",
+          "text": "think of solutions to the event that caused the emotion.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -329,7 +329,7 @@
         },
         {
           "id": "ERSS_CALMING",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to relax my muscles.",
+          "text": "relax my muscles.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -345,7 +345,7 @@
         },
         {
           "id": "ERSS_SAVORING",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to capture and hold on to the emotion I am feeling at the moment.",
+          "text": "capture and hold on to the emotion I am feeling at the moment.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -361,7 +361,7 @@
         },
         {
           "id": "ERSS_RUMINATION",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to repeatedly analyze the situation that made me feel this way.",
+          "text": "repeatedly analyze the situation that made me feel this way.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -377,7 +377,7 @@
         },
         {
           "id": "CERQ_SELF_BLAME",
-          "text": "In unpleasant, stressful, or threatening situations I feel that I am the one who is responsible for what has happened.",
+          "text": "I feel that I am the one who is responsible for what has happened.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -393,7 +393,7 @@
         },
         {
           "id": "CERQ_CATASTROPHIZE",
-          "text": "In unpleasant, stressful, or threatening situations I keep thinking about how terrible it is what I have experienced.",
+          "text": "I keep thinking about how terrible it is what I have experienced.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -409,7 +409,7 @@
         },
         {
           "id": "CERQ_OTHER_BLAME",
-          "text": "In unpleasant, stressful, or threatening situations I feel that others are responsible for what has happened.",
+          "text": "I feel that others are responsible for what has happened.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -425,7 +425,7 @@
         },
         {
           "id": "HCS_ATTENTIVENESS",
-          "text": "In the past month I was generally attentive to my inner feelings about my health.",
+          "text": "I was generally attentive to my inner feelings about my health.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -441,7 +441,7 @@
         },
         {
           "id": "HCS_REFLECTION",
-          "text": "In the past month I reflected about my health.",
+          "text": "I reflected about my health.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -457,7 +457,7 @@
         },
         {
           "id": "HCS_MONITORING",
-          "text": "In the past month I noticed how I felt physically as I went through the day.",
+          "text": "I noticed how I felt physically as I went through the day.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -673,7 +673,7 @@
       "questions": [
         {
           "id": "MQ_STRESS",
-          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
+          "text": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?\n\nStress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -688,7 +688,7 @@
         },
         {
           "id": "MQ_AROUSAL",
-          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
+          "text": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?\n\nArousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -1010,7 +1010,7 @@
         },
         {
           "id": "BAT_EX1",
-          "text": "At work/study, I feel mentally exhausted.",
+          "text": "I feel mentally exhausted.",
           "type": "range",
           "validation": "numeric 1-5 (never, rarely, sometimes, often, always)",
           "range": [
@@ -1086,7 +1086,7 @@
         },
         {
           "id": "BAT_EI5",
-          "text": "At work/study, I may overact unintentionally.",
+          "text": "I may overact unintentionally.",
           "type": "range",
           "validation": "numeric 1-5 (never, rarely, sometimes, often, always)",
           "range": [
