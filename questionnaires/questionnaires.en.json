@@ -1424,38 +1424,6 @@
           ]
         },
         {
-          "id": "mq_stress_final",
-          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
-          "type": "range",
-          "validation": "numeric -5 - 5",
-          "range": [
-            -5,
-            5
-          ],
-          "rangeLabels": [
-            "very relaxed",
-            "very nervous"
-          ],
-          "section": "Mood scale",
-          "stem": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?"
-        },
-        {
-          "id": "mq_arousal_final",
-          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
-          "type": "range",
-          "validation": "numeric -5 - 5",
-          "range": [
-            -5,
-            5
-          ],
-          "rangeLabels": [
-            "very sluggish",
-            "very active"
-          ],
-          "section": "Mood scale",
-          "stem": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?"
-        },
-        {
           "id": "textblock_end",
           "text": "You are all done! Thanks so much for participating, you have earned your bragging rights as HEADLINER on Lowlands' smallest stage!",
           "type": "textblock",
