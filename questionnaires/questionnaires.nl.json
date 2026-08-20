@@ -116,7 +116,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_FINANCE_INT",
@@ -132,7 +132,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_WORK_INT",
@@ -148,7 +148,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_SEC_EMPL_INT",
@@ -164,7 +164,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_HOUSING_INT",
@@ -180,7 +180,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_FAMFRIENDS_INT",
@@ -196,7 +196,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_ACQUAINTANCES_INT",
@@ -212,7 +212,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_SOC_OBL_INT",
@@ -228,7 +228,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "DSST_OTHER_INT",
@@ -244,7 +244,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
         },
         {
           "id": "ERSS_REAPP",
@@ -389,7 +389,7 @@
             "zeer vaak"
           ],
           "section": "CERQ — Cognitieve emotieregulatie",
-          "stem": "In onaangename, stressvolle of bedreigende situaties"
+          "stem": "In onaangename, stressvolle of bedreigende situaties."
         },
         {
           "id": "CERQ_CATASTROPHIZE",
@@ -405,7 +405,7 @@
             "zeer vaak"
           ],
           "section": "CERQ — Cognitieve emotieregulatie",
-          "stem": "In onaangename, stressvolle of bedreigende situaties"
+          "stem": "In onaangename, stressvolle of bedreigende situaties."
         },
         {
           "id": "CERQ_OTHER_BLAME",
@@ -421,7 +421,7 @@
             "zeer vaak"
           ],
           "section": "CERQ — Cognitieve emotieregulatie",
-          "stem": "In onaangename, stressvolle of bedreigende situaties"
+          "stem": "In onaangename, stressvolle of bedreigende situaties."
         },
         {
           "id": "HCS_ATTENTIVENESS",
@@ -437,7 +437,7 @@
             "past heel goed bij mij"
           ],
           "section": "HCS — Gezondheidsbewustzijn",
-          "stem": "In de afgelopen maand"
+          "stem": "In de afgelopen maand…"
         },
         {
           "id": "HCS_REFLECTION",
@@ -453,7 +453,7 @@
             "past heel goed bij mij"
           ],
           "section": "HCS — Gezondheidsbewustzijn",
-          "stem": "In de afgelopen maand"
+          "stem": "In de afgelopen maand…"
         },
         {
           "id": "HCS_MONITORING",
@@ -469,7 +469,7 @@
             "past heel goed bij mij"
           ],
           "section": "HCS — Gezondheidsbewustzijn",
-          "stem": "In de afgelopen maand"
+          "stem": "In de afgelopen maand…"
         },
         {
           "id": "HAIR_SAMPLE_YN",
