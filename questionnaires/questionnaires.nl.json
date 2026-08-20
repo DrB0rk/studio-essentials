@@ -1,9 +1,9 @@
 {
-  "version": 3,
+  "version": 4,
   "language": "nl",
   "title": "AMS Studio Deelnemersvragenlijsten (NL)",
   "sourceMd": "Qualtrics Questions.md",
-  "fetchedAt": "2026-08-18T00:00:00Z",
+  "fetchedAt": "2026-08-20T14:07:42Z",
   "slots": [
     {
       "id": "q0",
@@ -36,8 +36,14 @@
           "text": "Afstand tussen de ECG-elektrodes (cm)",
           "type": "range",
           "validation": "numeric",
-          "range": [0, 50],
-          "rangeLabels": ["0 cm", "50 cm"],
+          "range": [
+            0,
+            50
+          ],
+          "rangeLabels": [
+            "0 cm",
+            "50 cm"
+          ],
           "section": "Intake"
         },
         {
@@ -45,7 +51,10 @@
           "text": "Ik geef toestemming om een profielfoto te maken voor de operatorcockpit.",
           "type": "constrained-choice",
           "validation": "yes = 1, no = 0",
-          "options": ["Ja", "Nee"],
+          "options": [
+            "Ja",
+            "Nee"
+          ],
           "section": "Intake"
         },
         {
@@ -55,7 +64,13 @@
           "validation": "string",
           "section": "Intake",
           "dependencies": [
-            { "questionId": "intake_photo_consent", "condition": { "type": "equals", "value": "Ja" } }
+            {
+              "questionId": "intake_photo_consent",
+              "condition": {
+                "type": "equals",
+                "value": "Ja"
+              }
+            }
           ]
         },
         {
@@ -70,15 +85,21 @@
     {
       "id": "q1",
       "title": "Sessie 1 — Baseline & haarcortisol",
-      "introText": "Er zijn in het dagelijks leven af en toe kleine en grote uitdagingen die steeds terug kunnen komen en waaraan je soms niet kunt wennen. Geef aan of en hoe sterk je door de volgende ergernissen of ongemakken in DE AFGEOPEN MAAND bent beïnvloed.",
+      "introText": "In het dagelijks leven krijgen we soms te maken met kleine en grote uitdagingen die regelmatig kunnen terugkomen. Sommige daarvan kunnen belastend zijn en het kan lastig zijn om eraan te wennen. Geef aan of en in welke mate je in DE AFGELOPEN MAAND last hebt gehad van de volgende situaties.",
       "questions": [
         {
           "id": "major_stressor_int",
           "text": "Geef aan in welke mate je bent beïnvloed door een grote levensstressor (bijv. verlies van een dierbare, ontslag, verhuizing).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -86,8 +107,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door gezondheidsproblemen (bijv. ziektes, chronische klachten).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -95,8 +122,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door financiële beperkingen (bijv. laag inkomen, afbetalingen).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -104,8 +137,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door ontevredenheid over opleiding/werk (bijv. examens, werkdruk).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -113,8 +152,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door problemen met (bij)baan (bijv. combinatie met school/studie, hoge verantwoordelijkheid, geluidsoverlast).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -122,8 +167,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door ontevredenheid over de woonsituatie (bijv. lawaai, kleine woning).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -131,8 +182,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door veelvuldige tegenstrijdigheden, conflicten, spanningen met naasten (bijv. familie, huishouden, vrienden, partner).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -140,8 +197,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door veelvuldige tegenstrijdigheden, conflicten, spanningen met anderen (bijv. collega’s, medestudenten, buren, huisgenoten, verhuurders).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -149,8 +212,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door problemen met sociale verplichtingen (bijv. verenigingen, organisaties).",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -158,8 +227,14 @@
           "text": "Geef aan in welke mate je bent beïnvloed door een andere, nog niet genoemde last/stressor.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["helemaal niet", "heel erg"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "helemaal niet",
+            "heel erg"
+          ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
@@ -167,8 +242,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door op een andere manier over de situatie na te denken.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie",
           "notes": "letterlijk uit MD: 'Likert scale 1-5 (not at all, rarely, sometimes, often, very often)'"
         },
@@ -177,8 +258,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door mijn aandacht op iets anders te richten.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie"
         },
         {
@@ -186,8 +273,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de ervaring te accepteren.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie"
         },
         {
@@ -195,8 +288,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door niet te laten zien wat ik voel.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie"
         },
         {
@@ -204,8 +303,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door oplossingen te bedenken voor de gebeurtenis die de emotie veroorzaakte.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie"
         },
         {
@@ -213,8 +318,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door mijn spieren te ontspannen.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie"
         },
         {
@@ -222,8 +333,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de emotie die ik op dat moment voel vast te houden.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie"
         },
         {
@@ -231,8 +348,14 @@
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de situatie die dit gevoel veroorzaakte steeds opnieuw te analyseren.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "ERSS — Emotieregulatie"
         },
         {
@@ -240,8 +363,14 @@
           "text": "In onaangename, stressvolle of bedreigende situaties voel ik dat ik degene ben die verantwoordelijk is voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "CERQ — Cognitieve emotieregulatie"
         },
         {
@@ -249,8 +378,14 @@
           "text": "In onaangename, stressvolle of bedreigende situaties blijf ik denken aan hoe vreselijk het is wat ik heb meegemaakt.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "CERQ — Cognitieve emotieregulatie"
         },
         {
@@ -258,8 +393,14 @@
           "text": "In onaangename, stressvolle of bedreigende situaties voel ik dat anderen verantwoordelijk zijn voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "zeer vaak"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "zeer vaak"
+          ],
           "section": "CERQ — Cognitieve emotieregulatie"
         },
         {
@@ -267,8 +408,14 @@
           "text": "In de afgelopen maand was ik over het algemeen attent op mijn innerlijke gevoelens over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["past niet bij mij", "past heel goed bij mij"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "past niet bij mij",
+            "past heel goed bij mij"
+          ],
           "section": "HCS — Gezondheidsbewustzijn"
         },
         {
@@ -276,8 +423,14 @@
           "text": "In de afgelopen maand dacht ik na over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["past niet bij mij", "past heel goed bij mij"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "past niet bij mij",
+            "past heel goed bij mij"
+          ],
           "section": "HCS — Gezondheidsbewustzijn"
         },
         {
@@ -285,8 +438,14 @@
           "text": "In de afgelopen maand merkte ik hoe ik me lichamelijk voelde terwijl ik de dag doorging.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["past niet bij mij", "past heel goed bij mij"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "past niet bij mij",
+            "past heel goed bij mij"
+          ],
           "section": "HCS — Gezondheidsbewustzijn"
         },
         {
@@ -306,7 +465,10 @@
           "text": "Is je haar in de afgelopen 6 maanden geverfd, gebleekt of gepermanent?",
           "type": "constrained-choice",
           "validation": "yes = 1, no = 0",
-          "options": ["Ja", "Nee"],
+          "options": [
+            "Ja",
+            "Nee"
+          ],
           "section": "Haarcortisol",
           "notes": "MD: 'skip to end if hair_dye_YN = 0'"
         },
@@ -323,7 +485,13 @@
           ],
           "section": "Haarcortisol",
           "dependencies": [
-            { "questionId": "hair_dye_yn", "condition": { "type": "equals", "value": "Ja" } }
+            {
+              "questionId": "hair_dye_yn",
+              "condition": {
+                "type": "equals",
+                "value": "Ja"
+              }
+            }
           ],
           "notes": "MD: 'skip to next q iIf hair_dye_YN = 0no selected skip'"
         },
@@ -359,7 +527,13 @@
           "validation": "string",
           "section": "Haarcortisol",
           "dependencies": [
-            { "questionId": "hair_steroid_yn", "condition": { "type": "equals", "value": "Ja, namelijk [open tekst]" } }
+            {
+              "questionId": "hair_steroid_yn",
+              "condition": {
+                "type": "equals",
+                "value": "Ja, namelijk [open tekst]"
+              }
+            }
           ],
           "notes": "letterlijk uit MD: 'stringOPEN TEXT'"
         },
@@ -379,7 +553,13 @@
           ],
           "section": "Haarcortisol",
           "dependencies": [
-            { "questionId": "hair_steroid_yn", "condition": { "type": "equals", "value": "Ja, namelijk [open tekst]" } }
+            {
+              "questionId": "hair_steroid_yn",
+              "condition": {
+                "type": "equals",
+                "value": "Ja, namelijk [open tekst]"
+              }
+            }
           ]
         },
         {
@@ -389,7 +569,13 @@
           "validation": "string",
           "section": "Haarcortisol",
           "dependencies": [
-            { "questionId": "hair_steroid_method", "condition": { "type": "equals", "value": "Crème/zalf elders op het lichaam" } }
+            {
+              "questionId": "hair_steroid_method",
+              "condition": {
+                "type": "equals",
+                "value": "Crème/zalf elders op het lichaam"
+              }
+            }
           ]
         },
         {
@@ -399,7 +585,13 @@
           "validation": "string",
           "section": "Haarcortisol",
           "dependencies": [
-            { "questionId": "hair_steroid_method", "condition": { "type": "equals", "value": "Anders" } }
+            {
+              "questionId": "hair_steroid_method",
+              "condition": {
+                "type": "equals",
+                "value": "Anders"
+              }
+            }
           ]
         },
         {
@@ -424,7 +616,13 @@
           "validation": "string",
           "section": "Haarcortisol",
           "dependencies": [
-            { "questionId": "hair_contraception", "condition": { "type": "equals", "value": "Ja, andere anticonceptiepil (naam)" } }
+            {
+              "questionId": "hair_contraception",
+              "condition": {
+                "type": "equals",
+                "value": "Ja, andere anticonceptiepil (naam)"
+              }
+            }
           ]
         },
         {
@@ -434,7 +632,13 @@
           "validation": "string",
           "section": "Haarcortisol",
           "dependencies": [
-            { "questionId": "hair_contraception", "condition": { "type": "equals", "value": "Anders, (graag specificeren)" } }
+            {
+              "questionId": "hair_contraception",
+              "condition": {
+                "type": "equals",
+                "value": "Anders, (graag specificeren)"
+              }
+            }
           ]
         }
       ]
@@ -442,15 +646,21 @@
     {
       "id": "q2",
       "title": "Stemming — per sessie",
-      "introText": "Hoe voel je je NU? Eén keer per sessie vastleggen: start, anticipatie, presentatie, herstel.",
+      "introText": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.",
       "questions": [
         {
           "id": "mq_stress",
           "text": "Stress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
-          "range": [-5, 5],
-          "rangeLabels": ["heel ontspannen", "heel nerveus"],
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "heel ontspannen",
+            "heel nerveus"
+          ],
           "section": "Stemming"
         },
         {
@@ -458,8 +668,14 @@
           "text": "Activatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / alert / helder (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
-          "range": [-5, 5],
-          "rangeLabels": ["heel sloom", "heel actief"],
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "heel sloom",
+            "heel actief"
+          ],
           "section": "Stemming"
         }
       ]
@@ -474,8 +690,14 @@
           "text": "Deelname aan dit programma spreekt me aan.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma"
         },
         {
@@ -483,8 +705,14 @@
           "text": "Deelname aan dit programma zou mij helpen om met dagelijkse stress om te gaan.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma"
         },
         {
@@ -492,8 +720,14 @@
           "text": "Mensen die voor mij belangrijk zijn zouden het goed vinden als ik dit programma volg.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma"
         },
         {
@@ -501,8 +735,14 @@
           "text": "De meeste mensen die voor mij belangrijk zijn zouden deelname aan dit programma een goed idee vinden.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma"
         },
         {
@@ -510,8 +750,14 @@
           "text": "Mensen die op mij lijken zouden aan dit programma deelnemen.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma"
         },
         {
@@ -519,8 +765,14 @@
           "text": "Ik heb er vertrouwen in dat ik aan dit programma kan deelnemen.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma"
         },
         {
@@ -528,8 +780,14 @@
           "text": "Deelname aan dit programma zou voor mij makkelijk zijn.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma"
         },
         {
@@ -537,7 +795,10 @@
           "text": "Mogen we je e-mailadres gebruiken om je na Lowlands over het programma te contacteren?",
           "type": "constrained-choice",
           "validation": "No 0  Yes1",
-          "options": ["Nee", "Ja"],
+          "options": [
+            "Nee",
+            "Ja"
+          ],
           "section": "Interventieprogramma",
           "notes": "letterlijk uit MD: 'validation numeric No 0  Yes1'"
         },
@@ -546,11 +807,23 @@
           "text": "Ik ben van plan deel te nemen aan dit interventieprogramma.",
           "type": "range",
           "validation": "numeric 1-5",
-          "range": [1, 5],
-          "rangeLabels": ["sterk oneens", "sterk eens"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "sterk oneens",
+            "sterk eens"
+          ],
           "section": "Interventieprogramma",
           "dependencies": [
-            { "questionId": "interv_contact_yn", "condition": { "type": "equals", "value": "Ja" } }
+            {
+              "questionId": "interv_contact_yn",
+              "condition": {
+                "type": "equals",
+                "value": "Ja"
+              }
+            }
           ]
         },
         {
@@ -566,8 +839,14 @@
           "text": "Wat is je leeftijd?",
           "type": "range",
           "validation": "numeric 16-80 scale (single increments)",
-          "range": [16, 80],
-          "rangeLabels": ["16", "80"],
+          "range": [
+            16,
+            80
+          ],
+          "rangeLabels": [
+            "16",
+            "80"
+          ],
           "section": "Demografie"
         },
         {
@@ -590,7 +869,13 @@
           "validation": "string",
           "section": "Demografie",
           "dependencies": [
-            { "questionId": "demog_gender", "condition": { "type": "equals", "value": "Ik kies ervoor me te identificeren als" } }
+            {
+              "questionId": "demog_gender",
+              "condition": {
+                "type": "equals",
+                "value": "Ik kies ervoor me te identificeren als"
+              }
+            }
           ],
           "notes": "letterlijk uit MD: 'demog_gender_otherOPEN TEXT'"
         },
@@ -613,8 +898,14 @@
           "text": "Wat is je lengte (cm)?",
           "type": "range",
           "validation": "numeric 50-300",
-          "range": [50, 300],
-          "rangeLabels": ["50 cm", "300 cm"],
+          "range": [
+            50,
+            300
+          ],
+          "rangeLabels": [
+            "50 cm",
+            "300 cm"
+          ],
           "section": "Demografie",
           "notes": "MD: '50100cm-300cm' geïnterpreteerd als 50-300"
         },
@@ -623,8 +914,14 @@
           "text": "Wat is je gewicht (kg)?",
           "type": "range",
           "validation": "numeric 30-200",
-          "range": [30, 200],
-          "rangeLabels": ["30 kg", "200 kg"],
+          "range": [
+            30,
+            200
+          ],
+          "rangeLabels": [
+            "30 kg",
+            "200 kg"
+          ],
           "section": "Demografie"
         },
         {
@@ -651,11 +948,26 @@
           "text": "Hoeveel uur per week doe je betaald werk?",
           "type": "range",
           "validation": "numeric 0-80",
-          "range": [0, 80],
-          "rangeLabels": ["0", "80"],
+          "range": [
+            0,
+            80
+          ],
+          "rangeLabels": [
+            "0",
+            "80"
+          ],
           "section": "Demografie",
           "dependencies": [
-            { "questionId": "demog_employment", "condition": { "type": "containsAny", "value": ["Werkzaam", "Student"] } }
+            {
+              "questionId": "demog_employment",
+              "condition": {
+                "type": "containsAny",
+                "value": [
+                  "Werkzaam",
+                  "Student"
+                ]
+              }
+            }
           ],
           "notes": "MD: 'skip if demog_employment = unemployed or not on job market'"
         },
@@ -678,11 +990,23 @@
           "text": "Op werk/studie voel ik me mentaal uitgeput.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "altijd"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "altijd"
+          ],
           "section": "BAT — Burnout Assessment Tool",
           "dependencies": [
-            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+            {
+              "questionId": "demog_work_hours",
+              "condition": {
+                "type": "notEquals",
+                "value": "0"
+              }
+            }
           ],
           "notes": "MD: 'Logic: skip if demog_work_hours = 0 or missing'"
         },
@@ -691,11 +1015,23 @@
           "text": "Ik heb moeite om enthousiasme voor mijn werk/studie op te brengen.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "altijd"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "altijd"
+          ],
           "section": "BAT — Burnout Assessment Tool",
           "dependencies": [
-            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+            {
+              "questionId": "demog_work_hours",
+              "condition": {
+                "type": "notEquals",
+                "value": "0"
+              }
+            }
           ]
         },
         {
@@ -703,11 +1039,23 @@
           "text": "Als ik werk/studeer heb ik moeite me te concentreren.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "altijd"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "altijd"
+          ],
           "section": "BAT — Burnout Assessment Tool",
           "dependencies": [
-            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+            {
+              "questionId": "demog_work_hours",
+              "condition": {
+                "type": "notEquals",
+                "value": "0"
+              }
+            }
           ]
         },
         {
@@ -715,11 +1063,23 @@
           "text": "Op werk/studie kan ik onbedoeld overreageren.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
-          "range": [1, 5],
-          "rangeLabels": ["nooit", "altijd"],
+          "range": [
+            1,
+            5
+          ],
+          "rangeLabels": [
+            "nooit",
+            "altijd"
+          ],
           "section": "BAT — Burnout Assessment Tool",
           "dependencies": [
-            { "questionId": "demog_work_hours", "condition": { "type": "notEquals", "value": "0" } }
+            {
+              "questionId": "demog_work_hours",
+              "condition": {
+                "type": "notEquals",
+                "value": "0"
+              }
+            }
           ]
         },
         {
@@ -727,8 +1087,14 @@
           "text": "Hoeveel uur heb je afgelopen nacht geslapen?",
           "type": "range",
           "validation": "numeric 0-15",
-          "range": [0, 15],
-          "rangeLabels": ["0", "15"],
+          "range": [
+            0,
+            15
+          ],
+          "rangeLabels": [
+            "0",
+            "15"
+          ],
           "section": "Leefstijl"
         },
         {
@@ -791,7 +1157,13 @@
           "validation": "string",
           "section": "Leefstijl",
           "dependencies": [
-            { "questionId": "demog_smoke_ever", "condition": { "type": "equals", "value": "Ja, ik rookte vroeger" } }
+            {
+              "questionId": "demog_smoke_ever",
+              "condition": {
+                "type": "equals",
+                "value": "Ja, ik rookte vroeger"
+              }
+            }
           ],
           "notes": "MD: '[demog_smoke_quit][OPEN TEXT]'"
         },
@@ -802,7 +1174,16 @@
           "validation": "string",
           "section": "Leefstijl",
           "dependencies": [
-            { "questionId": "demog_smoke_ever", "condition": { "type": "containsAny", "value": ["Ja, ik rookte vroeger", "Ja"] } }
+            {
+              "questionId": "demog_smoke_ever",
+              "condition": {
+                "type": "containsAny",
+                "value": [
+                  "Ja, ik rookte vroeger",
+                  "Ja"
+                ]
+              }
+            }
           ],
           "notes": "MD: 'demog_smoke_durationOPEN TEXT'"
         },
@@ -813,7 +1194,13 @@
           "validation": "string",
           "section": "Leefstijl",
           "dependencies": [
-            { "questionId": "demog_smoke_ever", "condition": { "type": "equals", "value": "Ja" } }
+            {
+              "questionId": "demog_smoke_ever",
+              "condition": {
+                "type": "equals",
+                "value": "Ja"
+              }
+            }
           ]
         },
         {
@@ -823,7 +1210,13 @@
           "validation": "string",
           "section": "Leefstijl",
           "dependencies": [
-            { "questionId": "demog_smoke_ever", "condition": { "type": "equals", "value": "Ja" } }
+            {
+              "questionId": "demog_smoke_ever",
+              "condition": {
+                "type": "equals",
+                "value": "Ja"
+              }
+            }
           ]
         },
         {
@@ -845,11 +1238,23 @@
           "text": "Hoeveel glazen alcohol heb je gedronken sinds je wakker bent?",
           "type": "range",
           "validation": "numeric 0-150",
-          "range": [0, 150],
-          "rangeLabels": ["0", "150"],
+          "range": [
+            0,
+            150
+          ],
+          "rangeLabels": [
+            "0",
+            "150"
+          ],
           "section": "Leefstijl",
           "dependencies": [
-            { "questionId": "demog_alc_freq", "condition": { "type": "notEquals", "value": "Nooit" } }
+            {
+              "questionId": "demog_alc_freq",
+              "condition": {
+                "type": "notEquals",
+                "value": "Nooit"
+              }
+            }
           ],
           "notes": "MD: 'skip next two if previous is never'"
         },
@@ -858,11 +1263,23 @@
           "text": "Hoeveel glazen alcohol drink je op een typische weekdag waarop je drinkt? (in standaardglazen)",
           "type": "range",
           "validation": "numeric 0-150",
-          "range": [0, 150],
-          "rangeLabels": ["0", "150"],
+          "range": [
+            0,
+            150
+          ],
+          "rangeLabels": [
+            "0",
+            "150"
+          ],
           "section": "Leefstijl",
           "dependencies": [
-            { "questionId": "demog_alc_freq", "condition": { "type": "notEquals", "value": "Nooit" } }
+            {
+              "questionId": "demog_alc_freq",
+              "condition": {
+                "type": "notEquals",
+                "value": "Nooit"
+              }
+            }
           ],
           "notes": "MD: '40+' geïnterpreteerd als bovengrens 150 standaardglazen"
         }
