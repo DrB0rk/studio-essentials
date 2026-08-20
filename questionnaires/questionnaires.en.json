@@ -389,7 +389,7 @@
             "very often"
           ],
           "section": "CERQ — Cognitive emotion regulation",
-          "stem": "In unpleasant, stressful, or threatening situations"
+          "stem": "In unpleasant, stressful, or threatening situations."
         },
         {
           "id": "CERQ_CATASTROPHIZE",
@@ -405,7 +405,7 @@
             "very often"
           ],
           "section": "CERQ — Cognitive emotion regulation",
-          "stem": "In unpleasant, stressful, or threatening situations"
+          "stem": "In unpleasant, stressful, or threatening situations."
         },
         {
           "id": "CERQ_OTHER_BLAME",
@@ -421,7 +421,7 @@
             "very often"
           ],
           "section": "CERQ — Cognitive emotion regulation",
-          "stem": "In unpleasant, stressful, or threatening situations"
+          "stem": "In unpleasant, stressful, or threatening situations."
         },
         {
           "id": "HCS_ATTENTIVENESS",
@@ -1032,7 +1032,7 @@
             }
           ],
           "notes": "MD: 'Logic: skip if demog_work_hours = 0 or missing'",
-          "stem": "At work/study"
+          "stem": "At work/study,"
         },
         {
           "id": "BAT_MD1",
@@ -1057,7 +1057,7 @@
               }
             }
           ],
-          "stem": "At work/study"
+          "stem": "At work/study,"
         },
         {
           "id": "BAT_CI4",
@@ -1107,7 +1107,7 @@
               }
             }
           ],
-          "stem": "At work/study"
+          "stem": "At work/study,"
         },
         {
           "id": "DEMOG_HOURS_SLEPT",
