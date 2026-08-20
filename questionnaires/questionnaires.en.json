@@ -248,7 +248,7 @@
         },
         {
           "id": "ERSS_REAPP",
-          "text": "think about the situation differently.",
+          "text": "Think about the situation differently.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -265,7 +265,7 @@
         },
         {
           "id": "ERSS_DISTRACTION",
-          "text": "shift what I am thinking about to something different.",
+          "text": "Shift what I am thinking about to something different.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -281,7 +281,7 @@
         },
         {
           "id": "ERSS_ACCEPT",
-          "text": "accept the experience.",
+          "text": "Accept the experience.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -297,7 +297,7 @@
         },
         {
           "id": "ERSS_SUPPRESSION",
-          "text": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying not to show how I feel.",
+          "text": "Not show how I feel.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -313,7 +313,7 @@
         },
         {
           "id": "ERSS_PROB_SOLVING",
-          "text": "think of solutions to the event that caused the emotion.",
+          "text": "Think of solutions to the event that caused the emotion.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -329,7 +329,7 @@
         },
         {
           "id": "ERSS_CALMING",
-          "text": "relax my muscles.",
+          "text": "Relax my muscles.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -345,7 +345,7 @@
         },
         {
           "id": "ERSS_SAVORING",
-          "text": "capture and hold on to the emotion I am feeling at the moment.",
+          "text": "Capture and hold on to the emotion I am feeling at the moment.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -361,7 +361,7 @@
         },
         {
           "id": "ERSS_RUMINATION",
-          "text": "repeatedly analyze the situation that made me feel this way.",
+          "text": "Repeatedly analyze the situation that made me feel this way.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -673,7 +673,7 @@
       "questions": [
         {
           "id": "MQ_STRESS",
-          "text": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?\n\nStress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
+          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -688,7 +688,7 @@
         },
         {
           "id": "MQ_AROUSAL",
-          "text": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?\n\nArousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
+          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -1061,7 +1061,7 @@
         },
         {
           "id": "BAT_CI4",
-          "text": "When I’m working/studying, I have trouble concentrating.",
+          "text": "I have trouble concentrating.",
           "type": "range",
           "validation": "numeric 1-5 (never, rarely, sometimes, often, always)",
           "range": [
