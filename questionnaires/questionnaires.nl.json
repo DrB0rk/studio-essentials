@@ -3,7 +3,7 @@
   "language": "nl",
   "title": "AMS Studio Deelnemersvragenlijsten (NL)",
   "sourceMd": "Qualtrics Questions.md",
-  "fetchedAt": "2026-08-20T14:07:42Z",
+  "fetchedAt": "2026-08-20T14:20:37Z",
   "slots": [
     {
       "id": "q0",
@@ -11,28 +11,28 @@
       "introText": "Verwelkom de deelnemer, leg het apparaat en de identiteit vast en bevestig de toestemming vóór de studieprocedures.",
       "questions": [
         {
-          "id": "intake_device",
+          "id": "INTAKE_DEVICE",
           "text": "Apparaat-ID dat aan deze deelnemer is toegewezen",
           "type": "open",
           "validation": "string",
           "section": "Intake"
         },
         {
-          "id": "intake_participant_id",
+          "id": "INTAKE_PARTICIPANT_ID",
           "text": "Deelnemers-ID (volgens Lowlands-registratie)",
           "type": "open",
           "validation": "string",
           "section": "Intake"
         },
         {
-          "id": "intake_nickname",
+          "id": "INTAKE_NICKNAME",
           "text": "Met welke bijnaam mogen we je aanspreken?",
           "type": "open",
           "validation": "string",
           "section": "Intake"
         },
         {
-          "id": "intake_electrode_distance_cm",
+          "id": "INTAKE_ELECTRODE_DISTANCE_CM",
           "text": "Afstand tussen de ECG-elektrodes (cm)",
           "type": "range",
           "validation": "numeric",
@@ -47,7 +47,7 @@
           "section": "Intake"
         },
         {
-          "id": "intake_photo_consent",
+          "id": "INTAKE_PHOTO_CONSENT",
           "text": "Ik geef toestemming om een profielfoto te maken voor de operatorcockpit.",
           "type": "constrained-choice",
           "validation": "yes = 1, no = 0",
@@ -58,7 +58,7 @@
           "section": "Intake"
         },
         {
-          "id": "intake_photo_capture",
+          "id": "INTAKE_PHOTO_CAPTURE",
           "text": "Maak een profielfoto met de webcam.",
           "type": "camera",
           "validation": "string",
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "id": "intake_emoji_choice",
+          "id": "INTAKE_EMOJI_CHOICE",
           "text": "Kies een emoji die weergeeft hoe je je nu voelt.",
           "type": "open",
           "validation": "string",
@@ -88,7 +88,7 @@
       "introText": "In het dagelijks leven krijgen we soms te maken met kleine en grote uitdagingen die regelmatig kunnen terugkomen. Sommige daarvan kunnen belastend zijn en het kan lastig zijn om eraan te wennen. Geef aan of en in welke mate je in DE AFGELOPEN MAAND last hebt gehad van de volgende situaties.",
       "questions": [
         {
-          "id": "major_stressor_int",
+          "id": "MAJOR_STRESSOR_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door een grote levensstressor (bijv. verlies van een dierbare, ontslag, verhuizing).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -103,7 +103,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_health_int",
+          "id": "DSST_HEALTH_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door gezondheidsproblemen (bijv. ziektes, chronische klachten).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -118,7 +118,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_finance_int",
+          "id": "DSST_FINANCE_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door financiële beperkingen (bijv. laag inkomen, afbetalingen).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -133,7 +133,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_work_int",
+          "id": "DSST_WORK_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door ontevredenheid over opleiding/werk (bijv. examens, werkdruk).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -148,7 +148,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_sec_empl_int",
+          "id": "DSST_SEC_EMPL_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door problemen met (bij)baan (bijv. combinatie met school/studie, hoge verantwoordelijkheid, geluidsoverlast).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -163,7 +163,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_housing_int",
+          "id": "DSST_HOUSING_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door ontevredenheid over de woonsituatie (bijv. lawaai, kleine woning).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -178,7 +178,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_famfriends_int",
+          "id": "DSST_FAMFRIENDS_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door veelvuldige tegenstrijdigheden, conflicten, spanningen met naasten (bijv. familie, huishouden, vrienden, partner).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -193,7 +193,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_acquaintances_int",
+          "id": "DSST_ACQUAINTANCES_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door veelvuldige tegenstrijdigheden, conflicten, spanningen met anderen (bijv. collega’s, medestudenten, buren, huisgenoten, verhuurders).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -208,7 +208,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_soc_obl_int",
+          "id": "DSST_SOC_OBL_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door problemen met sociale verplichtingen (bijv. verenigingen, organisaties).",
           "type": "range",
           "validation": "numeric 1-5",
@@ -223,7 +223,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "dsst_other_int",
+          "id": "DSST_OTHER_INT",
           "text": "Geef aan in welke mate je bent beïnvloed door een andere, nog niet genoemde last/stressor.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -238,7 +238,7 @@
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)"
         },
         {
-          "id": "erss_cog_reapp",
+          "id": "ERSS_REAPP",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door op een andere manier over de situatie na te denken.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -254,7 +254,7 @@
           "notes": "letterlijk uit MD: 'Likert scale 1-5 (not at all, rarely, sometimes, often, very often)'"
         },
         {
-          "id": "erss_distraction",
+          "id": "ERSS_DISTRACTION",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door mijn aandacht op iets anders te richten.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -269,7 +269,7 @@
           "section": "ERSS — Emotieregulatie"
         },
         {
-          "id": "erss_accept",
+          "id": "ERSS_ACCEPT",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de ervaring te accepteren.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -284,7 +284,7 @@
           "section": "ERSS — Emotieregulatie"
         },
         {
-          "id": "erss_suppression",
+          "id": "ERSS_SUPPRESSION",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door niet te laten zien wat ik voel.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -299,7 +299,7 @@
           "section": "ERSS — Emotieregulatie"
         },
         {
-          "id": "erss_prob_solving",
+          "id": "ERSS_PROB_SOLVING",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door oplossingen te bedenken voor de gebeurtenis die de emotie veroorzaakte.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -314,7 +314,7 @@
           "section": "ERSS — Emotieregulatie"
         },
         {
-          "id": "erss_calming",
+          "id": "ERSS_CALMING",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door mijn spieren te ontspannen.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -329,7 +329,7 @@
           "section": "ERSS — Emotieregulatie"
         },
         {
-          "id": "erss_savoring",
+          "id": "ERSS_SAVORING",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de emotie die ik op dat moment voel vast te houden.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -344,7 +344,7 @@
           "section": "ERSS — Emotieregulatie"
         },
         {
-          "id": "erss_rumination",
+          "id": "ERSS_RUMINATION",
           "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de situatie die dit gevoel veroorzaakte steeds opnieuw te analyseren.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -359,7 +359,7 @@
           "section": "ERSS — Emotieregulatie"
         },
         {
-          "id": "cerq_self_blame",
+          "id": "CERQ_SELF_BLAME",
           "text": "In onaangename, stressvolle of bedreigende situaties voel ik dat ik degene ben die verantwoordelijk is voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -374,7 +374,7 @@
           "section": "CERQ — Cognitieve emotieregulatie"
         },
         {
-          "id": "cerq_catastrophize",
+          "id": "CERQ_CATASTROPHIZE",
           "text": "In onaangename, stressvolle of bedreigende situaties blijf ik denken aan hoe vreselijk het is wat ik heb meegemaakt.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -389,7 +389,7 @@
           "section": "CERQ — Cognitieve emotieregulatie"
         },
         {
-          "id": "cerq_externalize",
+          "id": "CERQ_OTHER_BLAME",
           "text": "In onaangename, stressvolle of bedreigende situaties voel ik dat anderen verantwoordelijk zijn voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -404,7 +404,7 @@
           "section": "CERQ — Cognitieve emotieregulatie"
         },
         {
-          "id": "hcs_attentiveness",
+          "id": "HCS_ATTENTIVENESS",
           "text": "In de afgelopen maand was ik over het algemeen attent op mijn innerlijke gevoelens over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -419,7 +419,7 @@
           "section": "HCS — Gezondheidsbewustzijn"
         },
         {
-          "id": "hcs_reflection",
+          "id": "HCS_REFLECTION",
           "text": "In de afgelopen maand dacht ik na over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -434,7 +434,7 @@
           "section": "HCS — Gezondheidsbewustzijn"
         },
         {
-          "id": "hcs_monitoring",
+          "id": "HCS_MONITORING",
           "text": "In de afgelopen maand merkte ik hoe ik me lichamelijk voelde terwijl ik de dag doorging.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -449,7 +449,7 @@
           "section": "HCS — Gezondheidsbewustzijn"
         },
         {
-          "id": "hair_sample_yn",
+          "id": "HAIR_SAMPLE_YN",
           "text": "Ik doneer een haarmonster.",
           "type": "constrained-choice",
           "validation": "yes = 1, no = 0, done = 2",
@@ -461,7 +461,7 @@
           "section": "Haarcortisol"
         },
         {
-          "id": "hair_dye_yn",
+          "id": "HAIR_DYE_YN",
           "text": "Is je haar in de afgelopen 6 maanden geverfd, gebleekt of gepermanent?",
           "type": "constrained-choice",
           "validation": "yes = 1, no = 0",
@@ -473,7 +473,7 @@
           "notes": "MD: 'skip to end if hair_dye_YN = 0'"
         },
         {
-          "id": "hair_dye_recency",
+          "id": "HAIR_DYE_RECENCY",
           "text": "Hoe lang geleden heb je dit gedaan?",
           "type": "constrained-choice",
           "validation": "<1mo = 1, 1- 2 mo = 2, 2-3mo = 3, >3MO =4",
@@ -496,7 +496,7 @@
           "notes": "MD: 'skip to next q iIf hair_dye_YN = 0no selected skip'"
         },
         {
-          "id": "hair_wash_freq",
+          "id": "HAIR_WASH_FREQ",
           "text": "Hoe vaak was je je haar normaal per week?",
           "type": "constrained-choice",
           "validation": "1, 2,3 ,4",
@@ -509,7 +509,7 @@
           "section": "Haarcortisol"
         },
         {
-          "id": "hair_steroid_yn",
+          "id": "HAIR_STEROID_YN",
           "text": "Heb je in de afgelopen drie maanden corticosteroïden gebruikt (zoals prednison, advair, nasonex, symbicort, fluticason, avamys, pulmicort, rhinocort, beclometason, triamcinolon, daktacort, hydrocortison)?",
           "type": "constrained-choice-open",
           "validation": "no 0 yes 1",
@@ -521,7 +521,7 @@
           "notes": "MD: 'Skip if hair_steroid_YN=0no selected'"
         },
         {
-          "id": "hair_steroid_substance",
+          "id": "HAIR_STEROID_SUBSTANCE",
           "text": "Welke corticosteroïd(en) heb je gebruikt?",
           "type": "open",
           "validation": "string",
@@ -538,7 +538,7 @@
           "notes": "letterlijk uit MD: 'stringOPEN TEXT'"
         },
         {
-          "id": "hair_steroid_method",
+          "id": "HAIR_STEROID_METHOD",
           "text": "Welke vorm corticosteroïden heb je gebruikt?",
           "type": "constrained-choice",
           "validation": "1-7",
@@ -563,7 +563,7 @@
           ]
         },
         {
-          "id": "hair_steroid_cream_loc",
+          "id": "HAIR_STEROID_CREAM_LOC",
           "text": "Waar op het lichaam heb je de crème/zalf aangebracht?",
           "type": "open",
           "validation": "string",
@@ -579,7 +579,7 @@
           ]
         },
         {
-          "id": "hair_steroid_other_method",
+          "id": "HAIR_STEROID_OTHER_METHOD",
           "text": "Welke andere methode?",
           "type": "open",
           "validation": "string",
@@ -595,7 +595,7 @@
           ]
         },
         {
-          "id": "hair_contraception",
+          "id": "HAIR_CONTRACEPTION",
           "text": "Gebruik je hormonale/langwerkende anticonceptie (condooms niet meegerekend)?",
           "type": "constrained-choice-open",
           "validation": "No = 0, 1, 2, 3, 4 5 = other",
@@ -610,7 +610,7 @@
           "section": "Haarcortisol"
         },
         {
-          "id": "hair_contraception_otherpill",
+          "id": "HAIR_CONTRACEPTION_OTHERPILL",
           "text": "Naam van de andere anticonceptiepil",
           "type": "open",
           "validation": "string",
@@ -626,7 +626,7 @@
           ]
         },
         {
-          "id": "hair_contraception_othermethod",
+          "id": "HAIR_CONTRACEPTION_OTHERMETHOD",
           "text": "Andere anticonceptiemethode (graag specificeren)",
           "type": "open",
           "validation": "string",
@@ -649,7 +649,7 @@
       "introText": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.",
       "questions": [
         {
-          "id": "mq_stress",
+          "id": "MQ_STRESS",
           "text": "Stress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
@@ -664,7 +664,7 @@
           "section": "Stemming"
         },
         {
-          "id": "mq_arousal",
+          "id": "MQ_AROUSAL",
           "text": "Activatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / alert / helder (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
@@ -686,7 +686,7 @@
       "introText": "Bijna klaar! Tot slot willen we graag wat achtergrondinformatie over je leven en de staat waarin je op ons experiment arriveerde.",
       "questions": [
         {
-          "id": "interv_attractive",
+          "id": "INTERV_ATTRACTIVE",
           "text": "Deelname aan dit programma spreekt me aan.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -701,7 +701,7 @@
           "section": "Interventieprogramma"
         },
         {
-          "id": "interv_helpful",
+          "id": "INTERV_HELPFUL",
           "text": "Deelname aan dit programma zou mij helpen om met dagelijkse stress om te gaan.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -716,7 +716,7 @@
           "section": "Interventieprogramma"
         },
         {
-          "id": "interv_approval",
+          "id": "INTERV_APPROVAL",
           "text": "Mensen die voor mij belangrijk zijn zouden het goed vinden als ik dit programma volg.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -731,7 +731,7 @@
           "section": "Interventieprogramma"
         },
         {
-          "id": "interv_goodidea",
+          "id": "INTERV_GOODIDEA",
           "text": "De meeste mensen die voor mij belangrijk zijn zouden deelname aan dit programma een goed idee vinden.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -746,7 +746,7 @@
           "section": "Interventieprogramma"
         },
         {
-          "id": "interv_similar",
+          "id": "INTERV_SIMILAR",
           "text": "Mensen die op mij lijken zouden aan dit programma deelnemen.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -761,7 +761,7 @@
           "section": "Interventieprogramma"
         },
         {
-          "id": "interv_confidence",
+          "id": "INTERV_CONFIDENCE",
           "text": "Ik heb er vertrouwen in dat ik aan dit programma kan deelnemen.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -776,7 +776,7 @@
           "section": "Interventieprogramma"
         },
         {
-          "id": "interv_easy",
+          "id": "INTERV_EASY",
           "text": "Deelname aan dit programma zou voor mij makkelijk zijn.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -791,7 +791,7 @@
           "section": "Interventieprogramma"
         },
         {
-          "id": "interv_contact_yn",
+          "id": "INTERV_CONTACT_YN",
           "text": "Mogen we je e-mailadres gebruiken om je na Lowlands over het programma te contacteren?",
           "type": "constrained-choice",
           "validation": "No 0  Yes1",
@@ -803,7 +803,7 @@
           "notes": "letterlijk uit MD: 'validation numeric No 0  Yes1'"
         },
         {
-          "id": "interv_intent",
+          "id": "INTERV_INTENT",
           "text": "Ik ben van plan deel te nemen aan dit interventieprogramma.",
           "type": "range",
           "validation": "numeric 1-5",
@@ -827,7 +827,7 @@
           ]
         },
         {
-          "id": "interv_why",
+          "id": "INTERV_WHY",
           "text": "Kun je toelichten waarom je wel of niet wilt deelnemen?",
           "type": "open",
           "validation": "string",
@@ -835,7 +835,7 @@
           "notes": "MD: 'MULTIPLE LINES OPEN TEXT'"
         },
         {
-          "id": "demog_age",
+          "id": "DEMOG_AGE",
           "text": "Wat is je leeftijd?",
           "type": "range",
           "validation": "numeric 16-80 scale (single increments)",
@@ -850,7 +850,7 @@
           "section": "Demografie"
         },
         {
-          "id": "demog_gender",
+          "id": "DEMOG_GENDER",
           "text": "Welke van de volgende opties past het best bij jou?",
           "type": "constrained-choice-open",
           "validation": "1, 2, 3, 4",
@@ -863,7 +863,7 @@
           "section": "Demografie"
         },
         {
-          "id": "demog_gender_other",
+          "id": "DEMOG_GENDER_OTHER",
           "text": "Eigen gekozen identiteit (open tekst)",
           "type": "open",
           "validation": "string",
@@ -880,7 +880,7 @@
           "notes": "letterlijk uit MD: 'demog_gender_otherOPEN TEXT'"
         },
         {
-          "id": "demog_sex",
+          "id": "DEMOG_SEX",
           "text": "Welk geslacht werd je bij de geboorte toegewezen (bijvoorbeeld op je geboortecertificaat)?",
           "type": "constrained-choice",
           "validation": "1, 2, 3, 4, 5",
@@ -894,7 +894,7 @@
           "section": "Demografie"
         },
         {
-          "id": "demog_height_cm",
+          "id": "DEMOG_HEIGHT_CM",
           "text": "Wat is je lengte (cm)?",
           "type": "range",
           "validation": "numeric 50-300",
@@ -910,7 +910,7 @@
           "notes": "MD: '50100cm-300cm' geïnterpreteerd als 50-300"
         },
         {
-          "id": "demog_weight_kg",
+          "id": "DEMOG_WEIGHT_KG",
           "text": "Wat is je gewicht (kg)?",
           "type": "range",
           "validation": "numeric 30-200",
@@ -925,7 +925,7 @@
           "section": "Demografie"
         },
         {
-          "id": "demog_employment",
+          "id": "DEMOG_EMPLOYMENT",
           "text": "Wat is je huidige arbeidsstatus? (meerdere antwoorden mogelijk)",
           "type": "multi-choice",
           "validation": "1, 2, 3, 4",
@@ -944,7 +944,7 @@
           "section": "Demografie"
         },
         {
-          "id": "demog_work_hours",
+          "id": "DEMOG_WORK_HOURS",
           "text": "Hoeveel uur per week doe je betaald werk?",
           "type": "range",
           "validation": "numeric 0-80",
@@ -972,7 +972,7 @@
           "notes": "MD: 'skip if demog_employment = unemployed or not on job market'"
         },
         {
-          "id": "demog_edu_lvl",
+          "id": "DEMOG_EDU_LVL",
           "text": "Wat is je hoogst behaalde of huidige opleiding?",
           "type": "constrained-choice",
           "validation": "1-5",
@@ -986,7 +986,7 @@
           "section": "Demografie"
         },
         {
-          "id": "bat_ex1",
+          "id": "BAT_EX1",
           "text": "Op werk/studie voel ik me mentaal uitgeput.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
@@ -1011,7 +1011,7 @@
           "notes": "MD: 'Logic: skip if demog_work_hours = 0 or missing'"
         },
         {
-          "id": "bat_md1",
+          "id": "BAT_MD1",
           "text": "Ik heb moeite om enthousiasme voor mijn werk/studie op te brengen.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
@@ -1035,7 +1035,7 @@
           ]
         },
         {
-          "id": "bat_ci4",
+          "id": "BAT_CI4",
           "text": "Als ik werk/studeer heb ik moeite me te concentreren.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
@@ -1059,7 +1059,7 @@
           ]
         },
         {
-          "id": "bat_ei5",
+          "id": "BAT_EI5",
           "text": "Op werk/studie kan ik onbedoeld overreageren.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
@@ -1083,7 +1083,7 @@
           ]
         },
         {
-          "id": "demog_hours_slept",
+          "id": "DEMOG_HOURS_SLEPT",
           "text": "Hoeveel uur heb je afgelopen nacht geslapen?",
           "type": "range",
           "validation": "numeric 0-15",
@@ -1098,7 +1098,7 @@
           "section": "Leefstijl"
         },
         {
-          "id": "demog_substances_used",
+          "id": "DEMOG_SUBSTANCES_USED",
           "text": "Welke middelen heb je gebruikt sinds je wakker bent? (meerdere antwoorden mogelijk)",
           "type": "multi-choice",
           "validation": "None = 0",
@@ -1139,7 +1139,7 @@
           "section": "Leefstijl"
         },
         {
-          "id": "demog_smoke_ever",
+          "id": "DEMOG_SMOKE_EVER",
           "text": "Heb je ooit dagelijks sigaretten, sigaren, pijp of andere tabaksproducten gerookt?",
           "type": "constrained-choice",
           "validation": "No = 0, Yes, used to = 2, Yes = 1",
@@ -1151,7 +1151,7 @@
           "section": "Leefstijl"
         },
         {
-          "id": "demog_smoke_quit",
+          "id": "DEMOG_SMOKE_QUIT",
           "text": "Hoeveel jaar geleden ben je gestopt?",
           "type": "open",
           "validation": "string",
@@ -1168,7 +1168,7 @@
           "notes": "MD: '[demog_smoke_quit][OPEN TEXT]'"
         },
         {
-          "id": "demog_smoke_duration",
+          "id": "DEMOG_SMOKE_DURATION",
           "text": "Hoeveel jaar in totaal heb je gerookt?",
           "type": "open",
           "validation": "string",
@@ -1188,7 +1188,7 @@
           "notes": "MD: 'demog_smoke_durationOPEN TEXT'"
         },
         {
-          "id": "demog_smoke_today_num",
+          "id": "DEMOG_SMOKE_TODAY_NUM",
           "text": "Hoeveel sigaretten heb je gerookt sinds je wakker bent?",
           "type": "open",
           "validation": "string",
@@ -1204,7 +1204,7 @@
           ]
         },
         {
-          "id": "demog_smoke_week_num",
+          "id": "DEMOG_SMOKE_WEEK_NUM",
           "text": "Hoeveel sigaretten rook je per week?",
           "type": "open",
           "validation": "string",
@@ -1220,7 +1220,7 @@
           ]
         },
         {
-          "id": "demog_alc_freq",
+          "id": "DEMOG_ALC_FREQ",
           "text": "Hoe vaak drink je alcoholische dranken?",
           "type": "constrained-choice",
           "validation": "Never = 0",
@@ -1234,7 +1234,7 @@
           "section": "Leefstijl"
         },
         {
-          "id": "demog_alc_today_num",
+          "id": "DEMOG_ALC_TODAY_NUM",
           "text": "Hoeveel glazen alcohol heb je gedronken sinds je wakker bent?",
           "type": "range",
           "validation": "numeric 0-150",
@@ -1259,7 +1259,7 @@
           "notes": "MD: 'skip next two if previous is never'"
         },
         {
-          "id": "demog_alc_weekly_num",
+          "id": "DEMOG_ALC_WEEKLY_NUM",
           "text": "Hoeveel glazen alcohol drink je op een typische weekdag waarop je drinkt? (in standaardglazen)",
           "type": "range",
           "validation": "numeric 0-150",
@@ -1282,6 +1282,27 @@
             }
           ],
           "notes": "MD: '40+' geïnterpreteerd als bovengrens 150 standaardglazen"
+        },
+        {
+          "id": "SUBSTANCE_SEDATIVE_PRESCRIBED",
+          "text": "Het slaap- of kalmeringsmiddel dat ik heb genomen was zoals aan mij voorgeschreven door een arts",
+          "type": "open",
+          "validation": "yes = 1, no = 0",
+          "section": "Substance follow-up"
+        },
+        {
+          "id": "SUBSTANCE_ADHD_PRESCRIBED",
+          "text": "De ADHD-medicatie die ik heb genomen was zoals aan mij voorgeschreven door een arts",
+          "type": "open",
+          "validation": "yes = 1, no = 0",
+          "section": "Substance follow-up"
+        },
+        {
+          "id": "SUBSTANCE_OPIOID_PRESCRIBED",
+          "text": "De opioïden die ik heb genomen was zoals aan mij voorgeschreven door een arts",
+          "type": "open",
+          "validation": "yes = 1, no = 0",
+          "section": "Substance follow-up"
         }
       ]
     }
