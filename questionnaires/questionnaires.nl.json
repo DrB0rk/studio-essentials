@@ -104,7 +104,7 @@
         },
         {
           "id": "DSST_HEALTH_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door gezondheidsproblemen (bijv. ziektes, chronische klachten).",
+          "text": "Gezondheidsproblemen (bijv. ziekten, chronische klachten).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -120,7 +120,7 @@
         },
         {
           "id": "DSST_FINANCE_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door financiële beperkingen (bijv. laag inkomen, afbetalingen).",
+          "text": "Financiële zorgen (bijv. een laag inkomen, betalingsverplichtingen).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -136,7 +136,7 @@
         },
         {
           "id": "DSST_WORK_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door ontevredenheid over opleiding/werk (bijv. examens, werkdruk).",
+          "text": "Zorgen over je opleiding of werk (bijv. examens, hoge werkdruk).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -152,7 +152,7 @@
         },
         {
           "id": "DSST_SEC_EMPL_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door problemen met (bij)baan (bijv. combinatie met school/studie, hoge verantwoordelijkheid, geluidsoverlast).",
+          "text": "Moeilijkheden met extra werk of een bijbaan (bijv. lastig te combineren met school of studie, veel verantwoordelijkheid, geluidsoverlast).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -168,7 +168,7 @@
         },
         {
           "id": "DSST_HOUSING_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door ontevredenheid over de woonsituatie (bijv. lawaai, kleine woning).",
+          "text": "Ontevredenheid over je woonsituatie (bijv. geluidsoverlast, een kleine woning).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -184,7 +184,7 @@
         },
         {
           "id": "DSST_FAMFRIENDS_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door veelvuldige tegenstrijdigheden, conflicten, spanningen met naasten (bijv. familie, huishouden, vrienden, partner).",
+          "text": "Frequente ruzies, conflicten, spanningen met naasten (bijv. familie, huisgenoten, vrienden, partner).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -200,7 +200,7 @@
         },
         {
           "id": "DSST_ACQUAINTANCES_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door veelvuldige tegenstrijdigheden, conflicten, spanningen met anderen (bijv. collega’s, medestudenten, buren, huisgenoten, verhuurders).",
+          "text": "Frequente ruzies, conflicten, spanningen met andere personen (bijv. collega's, medestudenten, buren, huisgenoten, verhuurders).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -216,7 +216,7 @@
         },
         {
           "id": "DSST_SOC_OBL_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door problemen met sociale verplichtingen (bijv. verenigingen, organisaties).",
+          "text": "Moeilijkheden met sociale verplichtingen (bijv. verenigingen, organisaties waar je lid van bent).",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -232,7 +232,7 @@
         },
         {
           "id": "DSST_OTHER_INT",
-          "text": "Geef aan in welke mate je bent beïnvloed door een andere, nog niet genoemde last/stressor.",
+          "text": "Een andere belasting of stressfactor die nog niet is genoemd.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -248,7 +248,7 @@
         },
         {
           "id": "ERSS_REAPP",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door op een andere manier over de situatie na te denken.",
+          "text": "Op een andere manier over de situatie nadenken.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -265,7 +265,7 @@
         },
         {
           "id": "ERSS_DISTRACTION",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door mijn aandacht op iets anders te richten.",
+          "text": "Mijn gedachten verleggen naar iets anders.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -281,7 +281,7 @@
         },
         {
           "id": "ERSS_ACCEPT",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de ervaring te accepteren.",
+          "text": "De ervaring accepteren.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -297,7 +297,7 @@
         },
         {
           "id": "ERSS_SUPPRESSION",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door niet te laten zien wat ik voel.",
+          "text": "Niet laten merken hoe ik me voel.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -313,7 +313,7 @@
         },
         {
           "id": "ERSS_PROB_SOLVING",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door oplossingen te bedenken voor de gebeurtenis die de emotie veroorzaakte.",
+          "text": "Oplossingen bedenken voor de gebeurtenis die de emotie veroorzaakte.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -329,7 +329,7 @@
         },
         {
           "id": "ERSS_CALMING",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door mijn spieren te ontspannen.",
+          "text": "Mijn spieren ontspannen.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -345,7 +345,7 @@
         },
         {
           "id": "ERSS_SAVORING",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de emotie die ik op dat moment voel vast te houden.",
+          "text": "De emotie die ik op dit moment voel vastpakken en vasthouden.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -361,7 +361,7 @@
         },
         {
           "id": "ERSS_RUMINATION",
-          "text": "Wanneer er iets gebeurt dat een emotie oproept die ik wil veranderen, probeer ik mijn gevoel te beïnvloeden door de situatie die dit gevoel veroorzaakte steeds opnieuw te analyseren.",
+          "text": "De situatie waardoor ik me zo voelde herhaaldelijk analyseren.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -377,7 +377,7 @@
         },
         {
           "id": "CERQ_SELF_BLAME",
-          "text": "voel ik dat ik degene ben die verantwoordelijk is voor wat er is gebeurd.",
+          "text": "Ik heb het gevoel dat ik degene ben die verantwoordelijk is voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -393,7 +393,7 @@
         },
         {
           "id": "CERQ_CATASTROPHIZE",
-          "text": "blijf ik denken aan hoe vreselijk het is wat ik heb meegemaakt.",
+          "text": "Ik blijf denken aan hoe vreselijk het is wat ik heb meegemaakt.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -409,7 +409,7 @@
         },
         {
           "id": "CERQ_OTHER_BLAME",
-          "text": "voel ik dat anderen verantwoordelijk zijn voor wat er is gebeurd.",
+          "text": "Ik heb het gevoel dat anderen verantwoordelijk zijn voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -425,7 +425,7 @@
         },
         {
           "id": "HCS_ATTENTIVENESS",
-          "text": "was ik over het algemeen attent op mijn innerlijke gevoelens over mijn gezondheid.",
+          "text": "Ik lette over het algemeen goed op mijn gevoelens over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -441,7 +441,7 @@
         },
         {
           "id": "HCS_REFLECTION",
-          "text": "dacht ik na over mijn gezondheid.",
+          "text": "Ik dacht veel na over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -457,7 +457,7 @@
         },
         {
           "id": "HCS_MONITORING",
-          "text": "merkte ik hoe ik me lichamelijk voelde terwijl ik de dag doorging.",
+          "text": "Ik merkte gedurende de dag op hoe ik me lichamelijk voel.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -673,7 +673,7 @@
       "questions": [
         {
           "id": "MQ_STRESS",
-          "text": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.\n\nStress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
+          "text": "Stress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -688,7 +688,7 @@
         },
         {
           "id": "MQ_AROUSAL",
-          "text": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.\n\nActivatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / alert / helder (+5).",
+          "text": "Activatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / alert / helder (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -1010,7 +1010,7 @@
         },
         {
           "id": "BAT_EX1",
-          "text": "Op werk/studie voel ik me mentaal uitgeput.",
+          "text": "Ik voel me geestelijk uitgeput.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
           "range": [
@@ -1036,7 +1036,7 @@
         },
         {
           "id": "BAT_MD1",
-          "text": "Ik heb moeite om enthousiasme voor mijn werk/studie op te brengen.",
+          "text": "Ik kan geen belangstelling en enthousiasme opbrengen voor mijn werk/studie.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
           "range": [
@@ -1061,7 +1061,7 @@
         },
         {
           "id": "BAT_CI4",
-          "text": "Als ik werk/studeer heb ik moeite me te concentreren.",
+          "text": "Ik heb moeite om me te concentreren.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
           "range": [
@@ -1086,7 +1086,7 @@
         },
         {
           "id": "BAT_EI5",
-          "text": "Op werk/studie kan ik onbedoeld overreageren.",
+          "text": "Ik kan onbedoald te sterk emotioneel reageren.",
           "type": "range",
           "validation": "numeric 1-5 (nooit, zelden, soms, vaak, altijd)",
           "range": [
