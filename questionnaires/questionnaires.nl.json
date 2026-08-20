@@ -116,7 +116,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_FINANCE_INT",
@@ -132,7 +132,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_WORK_INT",
@@ -148,7 +148,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_SEC_EMPL_INT",
@@ -164,7 +164,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_HOUSING_INT",
@@ -180,7 +180,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_FAMFRIENDS_INT",
@@ -196,7 +196,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_ACQUAINTANCES_INT",
@@ -212,7 +212,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_SOC_OBL_INT",
@@ -228,7 +228,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "DSST_OTHER_INT",
@@ -244,7 +244,7 @@
             "heel erg"
           ],
           "section": "DSST — Dagelijkse stressoren (afgelopen maand)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van"
         },
         {
           "id": "ERSS_REAPP",
@@ -261,7 +261,7 @@
           ],
           "section": "ERSS — Emotieregulatie",
           "notes": "letterlijk uit MD: 'Likert scale 1-5 (not at all, rarely, sometimes, often, very often)'",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "ERSS_DISTRACTION",
@@ -277,7 +277,7 @@
             "zeer vaak"
           ],
           "section": "ERSS — Emotieregulatie",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "ERSS_ACCEPT",
@@ -293,7 +293,7 @@
             "zeer vaak"
           ],
           "section": "ERSS — Emotieregulatie",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "ERSS_SUPPRESSION",
@@ -309,7 +309,7 @@
             "zeer vaak"
           ],
           "section": "ERSS — Emotieregulatie",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "ERSS_PROB_SOLVING",
@@ -325,7 +325,7 @@
             "zeer vaak"
           ],
           "section": "ERSS — Emotieregulatie",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "ERSS_CALMING",
@@ -341,7 +341,7 @@
             "zeer vaak"
           ],
           "section": "ERSS — Emotieregulatie",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "ERSS_SAVORING",
@@ -357,7 +357,7 @@
             "zeer vaak"
           ],
           "section": "ERSS — Emotieregulatie",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "ERSS_RUMINATION",
@@ -373,11 +373,11 @@
             "zeer vaak"
           ],
           "section": "ERSS — Emotieregulatie",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
         },
         {
           "id": "CERQ_SELF_BLAME",
-          "text": "In onaangename, stressvolle of bedreigende situaties voel ik dat ik degene ben die verantwoordelijk is voor wat er is gebeurd.",
+          "text": "voel ik dat ik degene ben die verantwoordelijk is voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -389,11 +389,11 @@
             "zeer vaak"
           ],
           "section": "CERQ — Cognitieve emotieregulatie",
-          "stem": "In unpleasant, stressful, or threatening situations"
+          "stem": "In onaangename, stressvolle of bedreigende situaties"
         },
         {
           "id": "CERQ_CATASTROPHIZE",
-          "text": "In onaangename, stressvolle of bedreigende situaties blijf ik denken aan hoe vreselijk het is wat ik heb meegemaakt.",
+          "text": "blijf ik denken aan hoe vreselijk het is wat ik heb meegemaakt.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -405,11 +405,11 @@
             "zeer vaak"
           ],
           "section": "CERQ — Cognitieve emotieregulatie",
-          "stem": "In unpleasant, stressful, or threatening situations"
+          "stem": "In onaangename, stressvolle of bedreigende situaties"
         },
         {
           "id": "CERQ_OTHER_BLAME",
-          "text": "In onaangename, stressvolle of bedreigende situaties voel ik dat anderen verantwoordelijk zijn voor wat er is gebeurd.",
+          "text": "voel ik dat anderen verantwoordelijk zijn voor wat er is gebeurd.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -421,11 +421,11 @@
             "zeer vaak"
           ],
           "section": "CERQ — Cognitieve emotieregulatie",
-          "stem": "In unpleasant, stressful, or threatening situations"
+          "stem": "In onaangename, stressvolle of bedreigende situaties"
         },
         {
           "id": "HCS_ATTENTIVENESS",
-          "text": "In de afgelopen maand was ik over het algemeen attent op mijn innerlijke gevoelens over mijn gezondheid.",
+          "text": "was ik over het algemeen attent op mijn innerlijke gevoelens over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -437,11 +437,11 @@
             "past heel goed bij mij"
           ],
           "section": "HCS — Gezondheidsbewustzijn",
-          "stem": "In the past month"
+          "stem": "In de afgelopen maand"
         },
         {
           "id": "HCS_REFLECTION",
-          "text": "In de afgelopen maand dacht ik na over mijn gezondheid.",
+          "text": "dacht ik na over mijn gezondheid.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -453,11 +453,11 @@
             "past heel goed bij mij"
           ],
           "section": "HCS — Gezondheidsbewustzijn",
-          "stem": "In the past month"
+          "stem": "In de afgelopen maand"
         },
         {
           "id": "HCS_MONITORING",
-          "text": "In de afgelopen maand merkte ik hoe ik me lichamelijk voelde terwijl ik de dag doorging.",
+          "text": "merkte ik hoe ik me lichamelijk voelde terwijl ik de dag doorging.",
           "type": "range",
           "validation": "numeric 1-5",
           "range": [
@@ -469,7 +469,7 @@
             "past heel goed bij mij"
           ],
           "section": "HCS — Gezondheidsbewustzijn",
-          "stem": "In the past month"
+          "stem": "In de afgelopen maand"
         },
         {
           "id": "HAIR_SAMPLE_YN",
@@ -673,7 +673,7 @@
       "questions": [
         {
           "id": "MQ_STRESS",
-          "text": "Stress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
+          "text": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.\n\nStress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -688,7 +688,7 @@
         },
         {
           "id": "MQ_AROUSAL",
-          "text": "Activatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / alert / helder (+5).",
+          "text": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.\n\nActivatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / alert / helder (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -1032,7 +1032,7 @@
             }
           ],
           "notes": "MD: 'Logic: skip if demog_work_hours = 0 or missing'",
-          "stem": "At work/study"
+          "stem": "Tijdens mijn werk/studie"
         },
         {
           "id": "BAT_MD1",
@@ -1057,7 +1057,7 @@
               }
             }
           ],
-          "stem": "At work/study"
+          "stem": "Tijdens mijn werk/studie"
         },
         {
           "id": "BAT_CI4",
@@ -1082,7 +1082,7 @@
               }
             }
           ],
-          "stem": "When I'm working/studying"
+          "stem": "Als ik aan het werk/studeren ben"
         },
         {
           "id": "BAT_EI5",
@@ -1107,7 +1107,7 @@
               }
             }
           ],
-          "stem": "At work/study"
+          "stem": "Tijdens mijn werk/studie"
         },
         {
           "id": "DEMOG_HOURS_SLEPT",
