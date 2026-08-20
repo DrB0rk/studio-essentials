@@ -1424,38 +1424,6 @@
           ]
         },
         {
-          "id": "mq_stress_final",
-          "text": "Stress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
-          "type": "range",
-          "validation": "numeric -5 - 5",
-          "range": [
-            -5,
-            5
-          ],
-          "rangeLabels": [
-            "zeer ontspannen",
-            "zeer nerveus"
-          ],
-          "section": "Mood scale",
-          "stem": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt."
-        },
-        {
-          "id": "mq_arousal_final",
-          "text": "Activatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / waakzaam / opgewekt (+5).",
-          "type": "range",
-          "validation": "numeric -5 - 5",
-          "range": [
-            -5,
-            5
-          ],
-          "rangeLabels": [
-            "zeer sloom",
-            "zeer actief"
-          ],
-          "section": "Mood scale",
-          "stem": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt."
-        },
-        {
           "id": "textblock_end",
           "text": "Helemaal klaar! Heel erg bedankt voor je deelname. Je hebt je bragging rights verdiend als HEADLINER op het kleinste podium van Lowlands!",
           "type": "textblock",
