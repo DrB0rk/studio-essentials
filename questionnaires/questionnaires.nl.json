@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "language": "nl",
   "title": "AMS Studio Deelnemersvragenlijsten (NL)",
   "sourceMd": "QualtricsQuestions.html",
@@ -712,19 +712,16 @@
       ]
     },
     {
-      "id": "q3",
-      "title": "Eindvragenlijst — stemming, interventie, demografie, BAT, leefstijl",
-      "introText": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste beschrijft hoe u zich op dit moment voelt. Dan, bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond, en in welke staat je op het experiment bent gekomen.",
+      "id": "q2",
+      "title": "Sessie 2 — Stemming (voor presentatie)",
+      "introText": "Hoe voelt u zich nu, voordat de presentatie begint?",
       "explainerMap": {
-        "mood_scale": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.",
-        "intervention_program": "Mensen krijgen in het dagelijks leven vaak te maken met stressvolle situaties, maar het is niet altijd gemakkelijk om daar goed mee om te gaan. Als onderdeel van een ander onderzoek van ons team bieden we je de mogelijkheid om je na Lowlands aan te melden voor een kort online programma dat is ontworpen om je te helpen om beter met stress om te gaan.",
-        "demographics_and_lifestyle": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
-        "bat_burnout_assessment_tool": "Denk na over de volgende stellingen over hoe je je doorgaans voelt op je werk of studie."
+        "mood_scale": "Hoe voelt u zich nu, voordat de presentatie begint?"
       },
       "questions": [
         {
-          "id": "mq_stress",
-          "text": "Stress: van heel ontspannen / rustig / kalm / comfortabel (-5) naar heel nerveus / gespannen / angstig / gestrest (+5).",
+          "id": "mq_stress_q2",
+          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -732,16 +729,15 @@
             5
           ],
           "rangeLabels": [
-            "zeer ontspannen",
-            "zeer nerveus"
+            "very relaxed",
+            "very nervous"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "mood_scale",
-          "dependencies": []
+          "sectionExplainer": "mood_scale"
         },
         {
-          "id": "mq_arousal",
-          "text": "Activatie: van heel sloom / moe / slaperig / dof (-5) naar heel actief / energiek / waakzaam / opgewekt (+5).",
+          "id": "mq_arousal_q2",
+          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
           "range": [
@@ -749,12 +745,98 @@
             5
           ],
           "rangeLabels": [
-            "zeer sloom",
-            "zeer actief"
+            "very sluggish",
+            "very active"
           ],
-          "section": "Mood scale",
-          "dependencies": []
+          "section": "Mood scale"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "title": "Sessie 3 — Stemming (tijdens presentatie)",
+      "introText": "Hoe voelt u zich tijdens de presentatie?",
+      "explainerMap": {
+        "mood_scale": "Hoe voelt u zich tijdens de presentatie?"
+      },
+      "questions": [
+        {
+          "id": "mq_stress_q3",
+          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very relaxed",
+            "very nervous"
+          ],
+          "section": "Mood scale"
         },
+        {
+          "id": "mq_arousal_q3",
+          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very sluggish",
+            "very active"
+          ],
+          "section": "Mood scale"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "title": "Sessie 4 — Stemming (na presentatie)",
+      "introText": "Hoe voelt u zich nu de presentatie ten einde loopt?",
+      "explainerMap": {
+        "mood_scale": "Hoe voelt u zich nu de presentatie ten einde loopt?"
+      },
+      "questions": [
+        {
+          "id": "mq_stress_q4",
+          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very relaxed",
+            "very nervous"
+          ],
+          "section": "Mood scale"
+        },
+        {
+          "id": "mq_arousal_q4",
+          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very sluggish",
+            "very active"
+          ],
+          "section": "Mood scale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "title": "Sessie 5 — Eindvragenlijst (interventie, demografie, BAT, leefstijl)",
+      "introText": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond, en in welke staat je op het experiment bent gekomen.",
+      "questions": [
         {
           "id": "interv_attractive",
           "text": "Deelname aan dit programma spreekt mij aan.",
@@ -1486,7 +1568,13 @@
           "section": "End of questionnaire",
           "dependencies": []
         }
-      ]
+      ],
+      "explainerMap": {
+        "mood_scale": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.",
+        "intervention_program": "Mensen krijgen in het dagelijks leven vaak te maken met stressvolle situaties, maar het is niet altijd gemakkelijk om daar goed mee om te gaan. Als onderdeel van een ander onderzoek van ons team bieden we je de mogelijkheid om je na Lowlands aan te melden voor een kort online programma dat is ontworpen om je te helpen om beter met stress om te gaan.",
+        "demographics_and_lifestyle": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
+        "bat_burnout_assessment_tool": "Denk na over de volgende stellingen over hoe je je doorgaans voelt op je werk of studie."
+      }
     }
   ]
 }

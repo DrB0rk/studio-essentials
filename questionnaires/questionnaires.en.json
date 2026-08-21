@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "language": "en",
   "title": "AMS Studio Participant Questionnaires (EN)",
   "sourceMd": "QualtricsQuestions.html",
@@ -712,18 +712,15 @@
       ]
     },
     {
-      "id": "q3",
-      "title": "End questionnaire — mood, intervention, demographics, BAT, lifestyle",
-      "introText": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment. Then, almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
+      "id": "q2",
+      "title": "Session 2 — Mood scale (pre-presentation)",
+      "introText": "How do you feel right now, before the presentation begins?",
       "explainerMap": {
-        "mood_scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?",
-        "intervention_program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
-        "demographics_and_lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
-        "bat_burnout_assessment_tool": "Reflect on the following statements about how you typically feel at work/study."
+        "mood_scale": "How do you feel right now, before the presentation begins?"
       },
       "questions": [
         {
-          "id": "mq_stress",
+          "id": "mq_stress_q2",
           "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
@@ -736,11 +733,10 @@
             "very nervous"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "mood_scale",
-          "dependencies": []
+          "sectionExplainer": "mood_scale"
         },
         {
-          "id": "mq_arousal",
+          "id": "mq_arousal_q2",
           "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
           "type": "range",
           "validation": "numeric -5 - 5",
@@ -752,9 +748,95 @@
             "very sluggish",
             "very active"
           ],
-          "section": "Mood scale",
-          "dependencies": []
+          "section": "Mood scale"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "title": "Session 3 — Mood scale (mid-presentation)",
+      "introText": "How do you feel during the presentation?",
+      "explainerMap": {
+        "mood_scale": "How do you feel during the presentation?"
+      },
+      "questions": [
+        {
+          "id": "mq_stress_q3",
+          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very relaxed",
+            "very nervous"
+          ],
+          "section": "Mood scale"
         },
+        {
+          "id": "mq_arousal_q3",
+          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very sluggish",
+            "very active"
+          ],
+          "section": "Mood scale"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "title": "Session 4 — Mood scale (post-presentation)",
+      "introText": "How do you feel now that the presentation is wrapping up?",
+      "explainerMap": {
+        "mood_scale": "How do you feel now that the presentation is wrapping up?"
+      },
+      "questions": [
+        {
+          "id": "mq_stress_q4",
+          "text": "Stress: from very relaxed / calm / composed / comfortable (-5) to very nervous / tense / anxious / stressed (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very relaxed",
+            "very nervous"
+          ],
+          "section": "Mood scale"
+        },
+        {
+          "id": "mq_arousal_q4",
+          "text": "Arousal: from very sluggish / tired / sleepy / dull (-5) to very active / energetic / alert / bright (+5).",
+          "type": "range",
+          "validation": "numeric -5 - 5",
+          "range": [
+            -5,
+            5
+          ],
+          "rangeLabels": [
+            "very sluggish",
+            "very active"
+          ],
+          "section": "Mood scale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "title": "Session 5 — End questionnaire (intervention, demographics, BAT, lifestyle)",
+      "introText": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
+      "questions": [
         {
           "id": "interv_attractive",
           "text": "Participating in this program is attractive to me.",
@@ -1486,7 +1568,13 @@
           "section": "End of questionnaire",
           "dependencies": []
         }
-      ]
+      ],
+      "explainerMap": {
+        "mood_scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?",
+        "intervention_program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
+        "demographics_and_lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
+        "bat_burnout_assessment_tool": "Reflect on the following statements about how you typically feel at work/study."
+      }
     }
   ]
 }
