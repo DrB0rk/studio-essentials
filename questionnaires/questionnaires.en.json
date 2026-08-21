@@ -100,7 +100,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "sectionExplainer": "DSST — Daily life stressors (past month)"
         },
         {
           "id": "dsst_health_int",
@@ -260,7 +261,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "sectionExplainer": "ERSS — Emotion regulation strategy"
         },
         {
           "id": "erss_distraction",
@@ -388,7 +390,8 @@
             "always"
           ],
           "section": "CERQ — Cognitive emotion regulation (post-stress thoughts)",
-          "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations."
+          "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations.",
+          "sectionExplainer": "CERQ — Cognitive emotion regulation (post-stress thoughts)"
         },
         {
           "id": "cerq_catastrophize",
@@ -436,7 +439,8 @@
             "describes me extremely well"
           ],
           "section": "HCS — Health consciousness",
-          "stem": "In the past month…"
+          "stem": "In the past month…",
+          "sectionExplainer": "HCS — Health consciousness"
         },
         {
           "id": "hcs_reflection",
@@ -481,7 +485,8 @@
             "No"
           ],
           "section": "Hair sample — Donation & chemical history",
-          "stem": "The following questions are relevant for the analysis of the hair sample."
+          "stem": "The following questions are relevant for the analysis of the hair sample.",
+          "sectionExplainer": "Hair sample — Donation & chemical history"
         },
         {
           "id": "hair_dye_YN",
@@ -692,7 +697,8 @@
             "very relaxed",
             "very nervous"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "sectionExplainer": "Mood scale"
         },
         {
           "id": "mq_arousal",
@@ -717,7 +723,6 @@
       "introText": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
       "explainerMap": {
         "Intervention program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
-        "Mood scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?",
         "Demographics & lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
         "Burnout Assessment Tool (BAT)": "Reflect on the following statements about how you typically feel at work/study."
       },
@@ -736,7 +741,8 @@
             "strongly agree"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "sectionExplainer": "Intervention program"
         },
         {
           "id": "interv_helpful",
@@ -890,7 +896,8 @@
             "16",
             "80"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "sectionExplainer": "Demographics & lifestyle"
         },
         {
           "id": "demog_gender",
@@ -1073,7 +1080,8 @@
                 ]
               }
             }
-          ]
+          ],
+          "sectionExplainer": "Burnout Assessment Tool (BAT)"
         },
         {
           "id": "bat_md1",

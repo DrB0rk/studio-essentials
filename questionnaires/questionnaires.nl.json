@@ -100,7 +100,8 @@
             "heel veel"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "In hoeverre heb je de afgelopen maand last gehad van…"
+          "stem": "In hoeverre heb je de afgelopen maand last gehad van…",
+          "sectionExplainer": "DSST — Daily life stressors (past month)"
         },
         {
           "id": "dsst_health_int",
@@ -260,7 +261,8 @@
             "heel vaak"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:"
+          "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:",
+          "sectionExplainer": "ERSS — Emotion regulation strategy"
         },
         {
           "id": "erss_distraction",
@@ -388,7 +390,8 @@
             "altijd"
           ],
           "section": "CERQ — Cognitive emotion regulation (post-stress thoughts)",
-          "stem": "Iedereen maakt van tijd tot tijd onaangename, stressvolle of bedreigende situaties mee. Geef aan hoe vaak je na zulke situaties meestal de volgende gedachten hebt."
+          "stem": "Iedereen maakt van tijd tot tijd onaangename, stressvolle of bedreigende situaties mee. Geef aan hoe vaak je na zulke situaties meestal de volgende gedachten hebt.",
+          "sectionExplainer": "CERQ — Cognitive emotion regulation (post-stress thoughts)"
         },
         {
           "id": "cerq_catastrophize",
@@ -436,7 +439,8 @@
             "past heel goed bij mij"
           ],
           "section": "HCS — Health consciousness",
-          "stem": "In de afgelopen maand…"
+          "stem": "In de afgelopen maand…",
+          "sectionExplainer": "HCS — Health consciousness"
         },
         {
           "id": "hcs_reflection",
@@ -481,7 +485,8 @@
             "Nee"
           ],
           "section": "Hair sample — Donation & chemical history",
-          "stem": "The following questions are relevant for the analysis of the hair sample."
+          "stem": "The following questions are relevant for the analysis of the hair sample.",
+          "sectionExplainer": "Hair sample — Donation & chemical history"
         },
         {
           "id": "hair_dye_YN",
@@ -692,7 +697,8 @@
             "zeer ontspannen",
             "zeer nerveus"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "sectionExplainer": "Mood scale"
         },
         {
           "id": "mq_arousal",
@@ -717,7 +723,6 @@
       "introText": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
       "explainerMap": {
         "Intervention program": "Mensen krijgen in het dagelijks leven vaak te maken met stressvolle situaties, maar het is niet altijd gemakkelijk om daar goed mee om te gaan. Als onderdeel van een ander onderzoek van ons team bieden we je de mogelijkheid om je na Lowlands aan te melden voor een kort online programma dat is ontworpen om je te helpen om beter met stress om te gaan.",
-        "Mood scale": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.",
         "Demographics & lifestyle": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
         "Burnout Assessment Tool (BAT)": "Denk na over de volgende stellingen over hoe je je doorgaans voelt op je werk of studie."
       },
@@ -736,7 +741,8 @@
             "helemaal eens"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "sectionExplainer": "Intervention program"
         },
         {
           "id": "interv_helpful",
@@ -890,7 +896,8 @@
             "16",
             "80"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "sectionExplainer": "Demographics & lifestyle"
         },
         {
           "id": "demog_gender",
@@ -1073,7 +1080,8 @@
                 ]
               }
             }
-          ]
+          ],
+          "sectionExplainer": "Burnout Assessment Tool (BAT)"
         },
         {
           "id": "bat_md1",
