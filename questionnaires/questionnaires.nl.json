@@ -79,11 +79,11 @@
       "title": "Sessie 1 — Baseline & haarcortisol",
       "introText": "In het dagelijks leven krijgen we soms te maken met kleine en grote uitdagingen die regelmatig kunnen terugkomen. Sommige daarvan kunnen belastend zijn en het kan lastig zijn om eraan te wennen. Geef aan of en in welke mate je in DE AFGELOPEN MAAND last hebt gehad van de volgende situaties.",
       "explainerMap": {
-        "DSST — Daily life stressors (past month)": "In het dagelijks leven krijgen we soms te maken met kleine en grote uitdagingen die regelmatig kunnen terugkomen. Sommige daarvan kunnen belastend zijn en het kan lastig zijn om eraan te wennen. Geef aan of en in welke mate je in DE AFGELOPEN MAAND last hebt gehad van de volgende situaties.",
-        "ERSS — Emotion regulation strategy": "De volgende stellingen beschrijven manieren waarop mensen kunnen reageren op emotionele ervaringen. We zijn vooral geïnteresseerd in wat je meestal doet om je gevoelens te veranderen. Geef aan wat je daadwerkelijk doet, NIET wat je denkt dat je zou moeten doen.",
-        "CERQ — Cognitive emotion regulation (post-stress thoughts)": "Iedereen maakt van tijd tot tijd onaangename, stressvolle of bedreigende situaties mee. Geef aan hoe vaak je na zulke situaties meestal de volgende gedachten hebt.",
-        "HCS — Health consciousness": "De volgende vragen gaan over hoe belangrijk je gezondheid voor je is in het dagelijks leven. We willen graag weten hoe je gezondheid je keuzes in het dagelijks leven beïnvloedt.",
-        "Hair sample — Donation & chemical history": "De volgende vragen gaan over de analyse van het haarmonster."
+        "dsst_daily_life_stressors": "In het dagelijks leven krijgen we soms te maken met kleine en grote uitdagingen die regelmatig kunnen terugkomen. Sommige daarvan kunnen belastend zijn en het kan lastig zijn om eraan te wennen. Geef aan of en in welke mate je in DE AFGELOPEN MAAND last hebt gehad van de volgende situaties.",
+        "erss_emotion_regulation": "De volgende stellingen beschrijven manieren waarop mensen kunnen reageren op emotionele ervaringen. We zijn vooral geïnteresseerd in wat je meestal doet om je gevoelens te veranderen. Geef aan wat je daadwerkelijk doet, NIET wat je denkt dat je zou moeten doen.",
+        "cerq_cognitive_emotion_regulation": "Iedereen maakt van tijd tot tijd onaangename, stressvolle of bedreigende situaties mee. Geef aan hoe vaak je na zulke situaties meestal de volgende gedachten hebt.",
+        "hcs_health_consciousness": "De volgende vragen gaan over hoe belangrijk je gezondheid voor je is in het dagelijks leven. We willen graag weten hoe je gezondheid je keuzes in het dagelijks leven beïnvloedt.",
+        "hair_sample_donation_and_chemical_history": "De volgende vragen gaan over de analyse van het haarmonster."
       },
       "questions": [
         {
@@ -101,7 +101,7 @@
           ],
           "section": "DSST — Daily life stressors (past month)",
           "stem": "In hoeverre heb je de afgelopen maand last gehad van…",
-          "sectionExplainer": "DSST — Daily life stressors (past month)"
+          "sectionExplainer": "dsst_daily_life_stressors"
         },
         {
           "id": "dsst_health_int",
@@ -262,7 +262,7 @@
           ],
           "section": "ERSS — Emotion regulation strategy",
           "stem": "Wanneer er iets gebeurt waardoor ik een emotie ervaar die ik wil veranderen, probeer ik mijn gevoelens te veranderen door het volgende:",
-          "sectionExplainer": "ERSS — Emotion regulation strategy"
+          "sectionExplainer": "erss_emotion_regulation"
         },
         {
           "id": "erss_distraction",
@@ -391,7 +391,7 @@
           ],
           "section": "CERQ — Cognitive emotion regulation (post-stress thoughts)",
           "stem": "Iedereen maakt van tijd tot tijd onaangename, stressvolle of bedreigende situaties mee. Geef aan hoe vaak je na zulke situaties meestal de volgende gedachten hebt.",
-          "sectionExplainer": "CERQ — Cognitive emotion regulation (post-stress thoughts)"
+          "sectionExplainer": "cerq_cognitive_emotion_regulation"
         },
         {
           "id": "cerq_catastrophize",
@@ -440,7 +440,7 @@
           ],
           "section": "HCS — Health consciousness",
           "stem": "In de afgelopen maand…",
-          "sectionExplainer": "HCS — Health consciousness"
+          "sectionExplainer": "hcs_health_consciousness"
         },
         {
           "id": "hcs_reflection",
@@ -486,7 +486,7 @@
           ],
           "section": "Hair sample — Donation & chemical history",
           "stem": "The following questions are relevant for the analysis of the hair sample.",
-          "sectionExplainer": "Hair sample — Donation & chemical history"
+          "sectionExplainer": "hair_sample_donation_and_chemical_history"
         },
         {
           "id": "hair_dye_YN",
@@ -681,7 +681,7 @@
       "title": "Stemming — per sessie",
       "introText": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.",
       "explainerMap": {
-        "Mood scale": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt."
+        "mood_scale": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt."
       },
       "questions": [
         {
@@ -698,7 +698,7 @@
             "zeer nerveus"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "Mood scale"
+          "sectionExplainer": "mood_scale"
         },
         {
           "id": "mq_arousal",
@@ -722,9 +722,9 @@
       "title": "Eindvragenlijst — interventie, demografie, BAT, leefstijl",
       "introText": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
       "explainerMap": {
-        "Intervention program": "Mensen krijgen in het dagelijks leven vaak te maken met stressvolle situaties, maar het is niet altijd gemakkelijk om daar goed mee om te gaan. Als onderdeel van een ander onderzoek van ons team bieden we je de mogelijkheid om je na Lowlands aan te melden voor een kort online programma dat is ontworpen om je te helpen om beter met stress om te gaan.",
-        "Demographics & lifestyle": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
-        "Burnout Assessment Tool (BAT)": "Denk na over de volgende stellingen over hoe je je doorgaans voelt op je werk of studie."
+        "intervention_program": "Mensen krijgen in het dagelijks leven vaak te maken met stressvolle situaties, maar het is niet altijd gemakkelijk om daar goed mee om te gaan. Als onderdeel van een ander onderzoek van ons team bieden we je de mogelijkheid om je na Lowlands aan te melden voor een kort online programma dat is ontworpen om je te helpen om beter met stress om te gaan.",
+        "demographics_and_lifestyle": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
+        "bat_burnout_assessment_tool": "Denk na over de volgende stellingen over hoe je je doorgaans voelt op je werk of studie."
       },
       "questions": [
         {
@@ -742,7 +742,7 @@
           ],
           "section": "Intervention program",
           "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
-          "sectionExplainer": "Intervention program"
+          "sectionExplainer": "intervention_program"
         },
         {
           "id": "interv_helpful",
@@ -897,7 +897,7 @@
             "80"
           ],
           "section": "Demographics & lifestyle",
-          "sectionExplainer": "Demographics & lifestyle"
+          "sectionExplainer": "demographics_and_lifestyle"
         },
         {
           "id": "demog_gender",
@@ -1081,7 +1081,7 @@
               }
             }
           ],
-          "sectionExplainer": "Burnout Assessment Tool (BAT)"
+          "sectionExplainer": "bat_burnout_assessment_tool"
         },
         {
           "id": "bat_md1",

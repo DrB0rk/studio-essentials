@@ -79,11 +79,11 @@
       "title": "Session 1 — Baseline & hair cortisol",
       "introText": "There are occasional minor and major challenges in daily life that can constantly reoccur, to which one can sometimes not get used to, and which can be more or less burdensome. Please tick whether and how strongly you have been affected by the following annoyances or inconveniences OVER THE PAST MONTH.",
       "explainerMap": {
-        "DSST — Daily life stressors (past month)": "There are occasional minor and major challenges in daily life that can constantly reoccur, to which one can sometimes not get used to, and which can be more or less burdensome. Please tick whether and how strongly you have been affected by the following annoyances or inconveniences OVER THE PAST MONTH.",
-        "ERSS — Emotion regulation strategy": "The following statements describe ways in which people can respond to emotional experiences. In particular, we are interested in what you typically do to change how you feel. Please tell us what you actually do, NOT what you think you should do.",
-        "CERQ — Cognitive emotion regulation (post-stress thoughts)": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations.",
-        "HCS — Health consciousness": "The following questions are about how important your health is in day-to-day life. We are interested in how much your health influences the choices you make every day.",
-        "Hair sample — Donation & chemical history": "The following questions are relevant for the analysis of the hair sample."
+        "dsst_daily_life_stressors": "There are occasional minor and major challenges in daily life that can constantly reoccur, to which one can sometimes not get used to, and which can be more or less burdensome. Please tick whether and how strongly you have been affected by the following annoyances or inconveniences OVER THE PAST MONTH.",
+        "erss_emotion_regulation": "The following statements describe ways in which people can respond to emotional experiences. In particular, we are interested in what you typically do to change how you feel. Please tell us what you actually do, NOT what you think you should do.",
+        "cerq_cognitive_emotion_regulation": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations.",
+        "hcs_health_consciousness": "The following questions are about how important your health is in day-to-day life. We are interested in how much your health influences the choices you make every day.",
+        "hair_sample_donation_and_chemical_history": "The following questions are relevant for the analysis of the hair sample."
       },
       "questions": [
         {
@@ -101,7 +101,7 @@
           ],
           "section": "DSST — Daily life stressors (past month)",
           "stem": "Please indicate the extent to which you were affected by",
-          "sectionExplainer": "DSST — Daily life stressors (past month)"
+          "sectionExplainer": "dsst_daily_life_stressors"
         },
         {
           "id": "dsst_health_int",
@@ -262,7 +262,7 @@
           ],
           "section": "ERSS — Emotion regulation strategy",
           "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
-          "sectionExplainer": "ERSS — Emotion regulation strategy"
+          "sectionExplainer": "erss_emotion_regulation"
         },
         {
           "id": "erss_distraction",
@@ -391,7 +391,7 @@
           ],
           "section": "CERQ — Cognitive emotion regulation (post-stress thoughts)",
           "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations.",
-          "sectionExplainer": "CERQ — Cognitive emotion regulation (post-stress thoughts)"
+          "sectionExplainer": "cerq_cognitive_emotion_regulation"
         },
         {
           "id": "cerq_catastrophize",
@@ -440,7 +440,7 @@
           ],
           "section": "HCS — Health consciousness",
           "stem": "In the past month…",
-          "sectionExplainer": "HCS — Health consciousness"
+          "sectionExplainer": "hcs_health_consciousness"
         },
         {
           "id": "hcs_reflection",
@@ -486,7 +486,7 @@
           ],
           "section": "Hair sample — Donation & chemical history",
           "stem": "The following questions are relevant for the analysis of the hair sample.",
-          "sectionExplainer": "Hair sample — Donation & chemical history"
+          "sectionExplainer": "hair_sample_donation_and_chemical_history"
         },
         {
           "id": "hair_dye_YN",
@@ -681,7 +681,7 @@
       "title": "Mood scale — per session",
       "introText": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?",
       "explainerMap": {
-        "Mood scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?"
+        "mood_scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?"
       },
       "questions": [
         {
@@ -698,7 +698,7 @@
             "very nervous"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "Mood scale"
+          "sectionExplainer": "mood_scale"
         },
         {
           "id": "mq_arousal",
@@ -722,9 +722,9 @@
       "title": "End questionnaire — intervention, demographics, BAT, lifestyle",
       "introText": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
       "explainerMap": {
-        "Intervention program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
-        "Demographics & lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
-        "Burnout Assessment Tool (BAT)": "Reflect on the following statements about how you typically feel at work/study."
+        "intervention_program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
+        "demographics_and_lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
+        "bat_burnout_assessment_tool": "Reflect on the following statements about how you typically feel at work/study."
       },
       "questions": [
         {
@@ -742,7 +742,7 @@
           ],
           "section": "Intervention program",
           "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
-          "sectionExplainer": "Intervention program"
+          "sectionExplainer": "intervention_program"
         },
         {
           "id": "interv_helpful",
@@ -897,7 +897,7 @@
             "80"
           ],
           "section": "Demographics & lifestyle",
-          "sectionExplainer": "Demographics & lifestyle"
+          "sectionExplainer": "demographics_and_lifestyle"
         },
         {
           "id": "demog_gender",
@@ -1081,7 +1081,7 @@
               }
             }
           ],
-          "sectionExplainer": "Burnout Assessment Tool (BAT)"
+          "sectionExplainer": "bat_burnout_assessment_tool"
         },
         {
           "id": "bat_md1",
