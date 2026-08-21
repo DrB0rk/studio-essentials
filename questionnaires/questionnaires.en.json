@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "language": "en",
   "title": "AMS Studio Participant Questionnaires (EN)",
   "sourceMd": "QualtricsQuestions.html",
@@ -713,7 +713,7 @@
     },
     {
       "id": "q2",
-      "title": "Session 2 — Mood scale (pre-presentation)",
+      "title": "Session 2 — Mood scale (anticipation)",
       "introText": "How do you feel right now, before the presentation begins?",
       "explainerMap": {
         "mood_scale": "How do you feel right now, before the presentation begins?"
@@ -754,8 +754,8 @@
     },
     {
       "id": "q3",
-      "title": "Session 3 — Mood scale (mid-presentation)",
-      "introText": "How do you feel during the presentation?",
+      "title": "Session 3 — Mood scale (recovery)",
+      "introText": "How do you feel now that the presentation has ended and you're in recovery?",
       "explainerMap": {
         "mood_scale": "How do you feel during the presentation?"
       },
@@ -795,8 +795,8 @@
     },
     {
       "id": "q4",
-      "title": "Session 4 — Mood scale (post-presentation)",
-      "introText": "How do you feel now that the presentation is wrapping up?",
+      "title": "Session 4 — Mood scale (cooldown)",
+      "introText": "How do you feel now that you've moved into cooldown?",
       "explainerMap": {
         "mood_scale": "How do you feel now that the presentation is wrapping up?"
       },
@@ -836,7 +836,7 @@
     },
     {
       "id": "q5",
-      "title": "Session 5 — End questionnaire (intervention, demographics, BAT, lifestyle)",
+      "title": "Session 5 — End questionnaire",
       "introText": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
       "questions": [
         {

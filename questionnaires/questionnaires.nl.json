@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "language": "nl",
   "title": "AMS Studio Deelnemersvragenlijsten (NL)",
   "sourceMd": "QualtricsQuestions.html",
@@ -713,7 +713,7 @@
     },
     {
       "id": "q2",
-      "title": "Sessie 2 — Stemming (voor presentatie)",
+      "title": "Sessie 2 — Stemming (anticipatie)",
       "introText": "Hoe voelt u zich nu, voordat de presentatie begint?",
       "explainerMap": {
         "mood_scale": "Hoe voelt u zich nu, voordat de presentatie begint?"
@@ -754,8 +754,8 @@
     },
     {
       "id": "q3",
-      "title": "Sessie 3 — Stemming (tijdens presentatie)",
-      "introText": "Hoe voelt u zich tijdens de presentatie?",
+      "title": "Sessie 3 — Stemming (herstel)",
+      "introText": "Hoe voelt u zich nu de presentatie is afgelopen en u in herstel bent?",
       "explainerMap": {
         "mood_scale": "Hoe voelt u zich tijdens de presentatie?"
       },
@@ -795,8 +795,8 @@
     },
     {
       "id": "q4",
-      "title": "Sessie 4 — Stemming (na presentatie)",
-      "introText": "Hoe voelt u zich nu de presentatie ten einde loopt?",
+      "title": "Sessie 4 — Stemming (cooldown)",
+      "introText": "Hoe voelt u zich nu u in de cooldown bent beland?",
       "explainerMap": {
         "mood_scale": "Hoe voelt u zich nu de presentatie ten einde loopt?"
       },
@@ -836,7 +836,7 @@
     },
     {
       "id": "q5",
-      "title": "Sessie 5 — Eindvragenlijst (interventie, demografie, BAT, leefstijl)",
+      "title": "Sessie 5 — Eindvragenlijst",
       "introText": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond, en in welke staat je op het experiment bent gekomen.",
       "questions": [
         {
