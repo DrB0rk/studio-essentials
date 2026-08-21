@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "language": "en",
   "title": "AMS Studio Participant Questionnaires (EN)",
   "sourceMd": "QualtricsQuestions.html",
@@ -795,8 +795,8 @@
     },
     {
       "id": "q4",
-      "title": "Session 4 — Mood scale (cooldown)",
-      "introText": "How do you feel now that you've moved into cooldown?",
+      "title": "Session 4 — Mood scale (offboarding)",
+      "introText": "How do you feel now that the experiment is wrapping up?",
       "explainerMap": {
         "mood_scale": "How do you feel now that the presentation is wrapping up?"
       },
@@ -836,7 +836,7 @@
     },
     {
       "id": "q5",
-      "title": "Session 5 — End questionnaire",
+      "title": "Session 5 — End questionnaire (offboarding)",
       "introText": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
       "questions": [
         {
