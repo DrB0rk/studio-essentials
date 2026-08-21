@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "language": "nl",
   "title": "AMS Studio Deelnemersvragenlijsten (NL)",
   "sourceMd": "QualtricsQuestions.html",
@@ -773,7 +773,8 @@
             "very relaxed",
             "very nervous"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "sectionExplainer": "mood_scale"
         },
         {
           "id": "mq_arousal_q3",
@@ -813,7 +814,8 @@
             "very relaxed",
             "very nervous"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "sectionExplainer": "mood_scale"
         },
         {
           "id": "mq_arousal_q4",
@@ -1566,14 +1568,15 @@
           "type": "textblock",
           "validation": "none",
           "section": "End of questionnaire",
-          "dependencies": []
+          "dependencies": [],
+          "sectionExplainer": "end_of_questionnaire"
         }
       ],
       "explainerMap": {
-        "mood_scale": "Hoe voelt u zich nu? Geef alstublieft aan welke van de volgende termen het beste aangeeft hoe u zich op dit moment voelt.",
         "intervention_program": "Mensen krijgen in het dagelijks leven vaak te maken met stressvolle situaties, maar het is niet altijd gemakkelijk om daar goed mee om te gaan. Als onderdeel van een ander onderzoek van ons team bieden we je de mogelijkheid om je na Lowlands aan te melden voor een kort online programma dat is ontworpen om je te helpen om beter met stress om te gaan.",
         "demographics_and_lifestyle": "Bijna klaar! Tot slot willen we je graag nog een paar vragen stellen over je achtergrond en hoe je je voelde toen je bij ons experiment aankwam.",
-        "bat_burnout_assessment_tool": "Denk na over de volgende stellingen over hoe je je doorgaans voelt op je werk of studie."
+        "bat_burnout_assessment_tool": "Denk na over de volgende stellingen over hoe je je doorgaans voelt op je werk of studie.",
+        "end_of_questionnaire": "Dat was de laatste set vragen. Bedankt voor je deelname — je antwoorden zijn opgeslagen en worden naar het onderzoeksteam gestuurd."
       }
     }
   ]

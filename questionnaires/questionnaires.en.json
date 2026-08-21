@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "language": "en",
   "title": "AMS Studio Participant Questionnaires (EN)",
   "sourceMd": "QualtricsQuestions.html",
@@ -773,7 +773,8 @@
             "very relaxed",
             "very nervous"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "sectionExplainer": "mood_scale"
         },
         {
           "id": "mq_arousal_q3",
@@ -813,7 +814,8 @@
             "very relaxed",
             "very nervous"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "sectionExplainer": "mood_scale"
         },
         {
           "id": "mq_arousal_q4",
@@ -1566,14 +1568,15 @@
           "type": "textblock",
           "validation": "none",
           "section": "End of questionnaire",
-          "dependencies": []
+          "dependencies": [],
+          "sectionExplainer": "end_of_questionnaire"
         }
       ],
       "explainerMap": {
-        "mood_scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?",
         "intervention_program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
         "demographics_and_lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
-        "bat_burnout_assessment_tool": "Reflect on the following statements about how you typically feel at work/study."
+        "bat_burnout_assessment_tool": "Reflect on the following statements about how you typically feel at work/study.",
+        "end_of_questionnaire": "That was the last set of questions. Thank you for participating — your answers have been saved and will be sent to the research team."
       }
     }
   ]
