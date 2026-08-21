@@ -1,10 +1,10 @@
 {
-  "version": 6,
+  "version": 7,
   "language": "en",
   "title": "AMS Studio Participant Questionnaires (EN)",
   "sourceMd": "QualtricsQuestions.html",
   "sourceMdPath": "Qualtrics Questions/QualtricsQuestions.html",
-  "fetchedAt": "2026-08-20T00:00:00Z",
+  "fetchedAt": "2026-08-21T00:00:00Z",
   "slots": [
     {
       "id": "q0",
@@ -16,21 +16,24 @@
           "text": "Device identifier assigned to this participant",
           "type": "open",
           "validation": "string",
-          "section": "Intake"
+          "section": "Intake",
+          "dependencies": []
         },
         {
           "id": "intake_participant_id",
           "text": "Participant ID (per Lowlands registration)",
           "type": "open",
           "validation": "string",
-          "section": "Intake"
+          "section": "Intake",
+          "dependencies": []
         },
         {
           "id": "intake_nickname",
           "text": "What nickname would you like to be addressed by?",
           "type": "open",
           "validation": "string",
-          "section": "Intake"
+          "section": "Intake",
+          "dependencies": []
         },
         {
           "id": "intake_electrode_distance_cm",
@@ -45,7 +48,8 @@
             "0 cm",
             "50 cm"
           ],
-          "section": "Intake"
+          "section": "Intake",
+          "dependencies": []
         },
         {
           "id": "intake_photo_consent",
@@ -56,21 +60,24 @@
             "Yes",
             "No"
           ],
-          "section": "Intake"
+          "section": "Intake",
+          "dependencies": []
         },
         {
           "id": "intake_emoji_choice",
           "text": "Which emoji would you like as your participant icon?",
           "type": "open",
           "validation": "string",
-          "section": "Intake"
+          "section": "Intake",
+          "dependencies": []
         },
         {
           "id": "intake_photo_capture",
           "text": "Take their participant photo",
           "type": "camera",
           "validation": "image",
-          "section": "Intake"
+          "section": "Intake",
+          "dependencies": []
         }
       ]
     },
@@ -101,7 +108,8 @@
           ],
           "section": "DSST — Daily life stressors (past month)",
           "stem": "Please indicate the extent to which you were affected by",
-          "sectionExplainer": "dsst_daily_life_stressors"
+          "sectionExplainer": "dsst_daily_life_stressors",
+          "dependencies": []
         },
         {
           "id": "dsst_health_int",
@@ -117,7 +125,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_finance_int",
@@ -133,7 +142,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_work_int",
@@ -149,7 +159,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_sec_empl_int",
@@ -165,7 +176,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_housing_int",
@@ -181,7 +193,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_famfriends_int",
@@ -197,7 +210,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_acquaintances_int",
@@ -213,7 +227,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_soc_obl_int",
@@ -229,7 +244,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "dsst_other_int",
@@ -245,7 +261,8 @@
             "very much"
           ],
           "section": "DSST — Daily life stressors (past month)",
-          "stem": "Please indicate the extent to which you were affected by"
+          "stem": "Please indicate the extent to which you were affected by",
+          "dependencies": []
         },
         {
           "id": "erss_reapp",
@@ -262,7 +279,8 @@
           ],
           "section": "ERSS — Emotion regulation strategy",
           "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
-          "sectionExplainer": "erss_emotion_regulation"
+          "sectionExplainer": "erss_emotion_regulation",
+          "dependencies": []
         },
         {
           "id": "erss_distraction",
@@ -278,7 +296,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "dependencies": []
         },
         {
           "id": "erss_accept",
@@ -294,7 +313,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "dependencies": []
         },
         {
           "id": "erss_suppression",
@@ -310,7 +330,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "dependencies": []
         },
         {
           "id": "erss_prob_solving",
@@ -326,7 +347,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "dependencies": []
         },
         {
           "id": "erss_calming",
@@ -342,7 +364,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "dependencies": []
         },
         {
           "id": "erss_savoring",
@@ -358,7 +381,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "dependencies": []
         },
         {
           "id": "erss_rumination",
@@ -374,7 +398,8 @@
             "very often"
           ],
           "section": "ERSS — Emotion regulation strategy",
-          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to"
+          "stem": "When something happens that makes me feel an emotion that I want to change, I manage how I am feeling by trying to",
+          "dependencies": []
         },
         {
           "id": "cerq_self_blame",
@@ -391,7 +416,8 @@
           ],
           "section": "CERQ — Cognitive emotion regulation (post-stress thoughts)",
           "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations.",
-          "sectionExplainer": "cerq_cognitive_emotion_regulation"
+          "sectionExplainer": "cerq_cognitive_emotion_regulation",
+          "dependencies": []
         },
         {
           "id": "cerq_catastrophize",
@@ -407,7 +433,8 @@
             "always"
           ],
           "section": "CERQ — Cognitive emotion regulation (post-stress thoughts)",
-          "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations."
+          "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations.",
+          "dependencies": []
         },
         {
           "id": "cerq_other_blame",
@@ -423,7 +450,8 @@
             "always"
           ],
           "section": "CERQ — Cognitive emotion regulation (post-stress thoughts)",
-          "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations."
+          "stem": "Everyone experiences unpleasant, stressful, or threatening situations from time to time. Please indicate how often you generally have the following thoughts after such situations.",
+          "dependencies": []
         },
         {
           "id": "hcs_attentiveness",
@@ -440,7 +468,8 @@
           ],
           "section": "HCS — Health consciousness",
           "stem": "In the past month…",
-          "sectionExplainer": "hcs_health_consciousness"
+          "sectionExplainer": "hcs_health_consciousness",
+          "dependencies": []
         },
         {
           "id": "hcs_reflection",
@@ -456,7 +485,8 @@
             "describes me extremely well"
           ],
           "section": "HCS — Health consciousness",
-          "stem": "In the past month…"
+          "stem": "In the past month…",
+          "dependencies": []
         },
         {
           "id": "hcs_monitoring",
@@ -472,7 +502,8 @@
             "describes me extremely well"
           ],
           "section": "HCS — Health consciousness",
-          "stem": "In the past month…"
+          "stem": "In the past month…",
+          "dependencies": []
         },
         {
           "id": "hair_sample_YN",
@@ -486,7 +517,8 @@
           ],
           "section": "Hair sample — Donation & chemical history",
           "stem": "The following questions are relevant for the analysis of the hair sample.",
-          "sectionExplainer": "hair_sample_donation_and_chemical_history"
+          "sectionExplainer": "hair_sample_donation_and_chemical_history",
+          "dependencies": []
         },
         {
           "id": "hair_dye_YN",
@@ -503,7 +535,7 @@
               "questionId": "hair_sample_YN",
               "condition": {
                 "type": "notEquals",
-                "value": "0"
+                "value": "Yes"
               }
             }
           ]
@@ -525,7 +557,7 @@
               "questionId": "hair_dye_YN",
               "condition": {
                 "type": "equals",
-                "value": "1"
+                "value": "No"
               }
             }
           ]
@@ -541,7 +573,8 @@
             "2-3 times a week",
             ">3 times a week"
           ],
-          "section": "Hair sample — Donation & chemical history"
+          "section": "Hair sample — Donation & chemical history",
+          "dependencies": []
         },
         {
           "id": "hair_steroid_YN",
@@ -552,7 +585,8 @@
             "No",
             "Yes, namely [hair_steroid_substance]"
           ],
-          "section": "Hair sample — Donation & chemical history"
+          "section": "Hair sample — Donation & chemical history",
+          "dependencies": []
         },
         {
           "id": "hair_steroid_substance",
@@ -565,7 +599,7 @@
               "questionId": "hair_steroid_YN",
               "condition": {
                 "type": "equals",
-                "value": "1"
+                "value": "Yes, namely [hair_steroid_substance]"
               }
             }
           ]
@@ -590,7 +624,7 @@
               "questionId": "hair_steroid_YN",
               "condition": {
                 "type": "equals",
-                "value": "1"
+                "value": "Yes, namely [hair_steroid_substance]"
               }
             }
           ]
@@ -606,7 +640,7 @@
               "questionId": "hair_steroid_method",
               "condition": {
                 "type": "equals",
-                "value": "3"
+                "value": "Cream/ointment elsewhere on the body, namely [hair_steroid_cream_loc]"
               }
             }
           ]
@@ -622,7 +656,7 @@
               "questionId": "hair_steroid_method",
               "condition": {
                 "type": "equals",
-                "value": "6"
+                "value": "Other [hair_steroid_other_method]"
               }
             }
           ]
@@ -640,7 +674,8 @@
             "Yes, copper intrauterine device (coil)",
             "Other, (please specify): [hair_contraception_othermethod]"
           ],
-          "section": "Hair sample — Donation & chemical history"
+          "section": "Hair sample — Donation & chemical history",
+          "dependencies": []
         },
         {
           "id": "hair_contraception_otherpill",
@@ -653,7 +688,7 @@
               "questionId": "hair_contraception",
               "condition": {
                 "type": "equals",
-                "value": "2"
+                "value": "Yes, other contraceptive pill (name): [hair_contraception_otherpill]"
               }
             }
           ]
@@ -669,7 +704,7 @@
               "questionId": "hair_contraception",
               "condition": {
                 "type": "equals",
-                "value": "5"
+                "value": "Other, (please specify): [hair_contraception_othermethod]"
               }
             }
           ]
@@ -677,11 +712,14 @@
       ]
     },
     {
-      "id": "q2",
-      "title": "Mood scale — per session",
-      "introText": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?",
+      "id": "q3",
+      "title": "End questionnaire — mood, intervention, demographics, BAT, lifestyle",
+      "introText": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment. Then, almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
       "explainerMap": {
-        "mood_scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?"
+        "mood_scale": "How do you feel currently? Please indicate which of the following terms best describes your mood at this moment?",
+        "intervention_program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
+        "demographics_and_lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
+        "bat_burnout_assessment_tool": "Reflect on the following statements about how you typically feel at work/study."
       },
       "questions": [
         {
@@ -698,7 +736,8 @@
             "very nervous"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "mood_scale"
+          "sectionExplainer": "mood_scale",
+          "dependencies": []
         },
         {
           "id": "mq_arousal",
@@ -713,20 +752,9 @@
             "very sluggish",
             "very active"
           ],
-          "section": "Mood scale"
-        }
-      ]
-    },
-    {
-      "id": "q3",
-      "title": "End questionnaire — intervention, demographics, BAT, lifestyle",
-      "introText": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
-      "explainerMap": {
-        "intervention_program": "People often encounter stressful situations in everyday life, but they are not always easy to manage effectively. As part of another study from our research team, we are offering you the opportunity to sign up for a brief online program after Lowlands designed to help you cope with everyday stress more effectively.",
-        "demographics_and_lifestyle": "Almost done! Finally, we'd like a bit of background information on your life, and the state in which you arrived at our experiment.",
-        "bat_burnout_assessment_tool": "Reflect on the following statements about how you typically feel at work/study."
-      },
-      "questions": [
+          "section": "Mood scale",
+          "dependencies": []
+        },
         {
           "id": "interv_attractive",
           "text": "Participating in this program is attractive to me.",
@@ -742,7 +770,8 @@
           ],
           "section": "Intervention program",
           "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
-          "sectionExplainer": "intervention_program"
+          "sectionExplainer": "intervention_program",
+          "dependencies": []
         },
         {
           "id": "interv_helpful",
@@ -758,7 +787,8 @@
             "strongly agree"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "dependencies": []
         },
         {
           "id": "interv_approval",
@@ -774,7 +804,8 @@
             "strongly agree"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "dependencies": []
         },
         {
           "id": "interv_goodidea",
@@ -790,7 +821,8 @@
             "strongly agree"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "dependencies": []
         },
         {
           "id": "interv_similar",
@@ -806,7 +838,8 @@
             "strongly agree"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "dependencies": []
         },
         {
           "id": "interv_confidence",
@@ -822,7 +855,8 @@
             "strongly agree"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "dependencies": []
         },
         {
           "id": "interv_easy",
@@ -838,7 +872,8 @@
             "strongly agree"
           ],
           "section": "Intervention program",
-          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands."
+          "stem": "For five consecutive days, you will receive a short daily questionnaire. Here you will be asked to reflect on a stressful experience you have had, how you responded, and what you might do differently in the future. This may help you become more aware of how you respond to stress, recognise which strategies work well for you, and identify ways to respond more effectively in the future. At the end of the 5 day program, you will receive a summary of your reflections. You will then be guided through developing a personalised action plan for managing similar situations the following week or in the future. The online program will take place one week after Lowlands.",
+          "dependencies": []
         },
         {
           "id": "interv_contact_YN",
@@ -850,7 +885,8 @@
             "No"
           ],
           "section": "Intervention program",
-          "stem": "We would like to offer you the unique opportunity to participate in this online program, and the associated research study. There are no financial costs to participate. Please indicate whether we can use your email address to contact you after Lowlands with more information. If you then decide to participate, the program would start on August 31st."
+          "stem": "We would like to offer you the unique opportunity to participate in this online program, and the associated research study. There are no financial costs to participate. Please indicate whether we can use your email address to contact you after Lowlands with more information. If you then decide to participate, the program would start on August 31st.",
+          "dependencies": []
         },
         {
           "id": "interv_intent",
@@ -871,7 +907,7 @@
               "questionId": "interv_contact_YN",
               "condition": {
                 "type": "equals",
-                "value": "1"
+                "value": "No"
               }
             }
           ]
@@ -881,7 +917,8 @@
           "text": "Could you expand on why you do or do not wish to participate?",
           "type": "open",
           "validation": "string",
-          "section": "Intervention program"
+          "section": "Intervention program",
+          "dependencies": []
         },
         {
           "id": "demog_age",
@@ -897,7 +934,8 @@
             "80"
           ],
           "section": "Demographics & lifestyle",
-          "sectionExplainer": "demographics_and_lifestyle"
+          "sectionExplainer": "demographics_and_lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_gender",
@@ -910,7 +948,8 @@
             "Non-binary or Genderfluid",
             "I choose to identify as [demog_gender_other]"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_gender_other",
@@ -923,7 +962,7 @@
               "questionId": "demog_gender",
               "condition": {
                 "type": "equals",
-                "value": "4"
+                "value": "I choose to identify as [demog_gender_other]"
               }
             }
           ]
@@ -940,7 +979,8 @@
             "I don't know",
             "Prefer not to answer"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_height_cm",
@@ -955,7 +995,8 @@
             "50 cm",
             "300 cm"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_weight_kg",
@@ -970,7 +1011,8 @@
             "30 kg",
             "200 kg"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_employment",
@@ -983,7 +1025,8 @@
             "Unemployed",
             "Not on job market (e.g. gap year, retired, homemaker)"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_work_hours",
@@ -1004,7 +1047,7 @@
               "questionId": "demog_employment",
               "condition": {
                 "type": "equals",
-                "value": "1"
+                "value": "Student"
               }
             }
           ]
@@ -1027,7 +1070,7 @@
               "questionId": "demog_employment",
               "condition": {
                 "type": "equals",
-                "value": "2"
+                "value": "Unemployed"
               }
             }
           ]
@@ -1050,7 +1093,7 @@
               "questionId": "demog_employment",
               "condition": {
                 "type": "notEquals",
-                "value": "2"
+                "value": "Unemployed"
               }
             }
           ]
@@ -1075,8 +1118,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "1",
-                  "2"
+                  "Student",
+                  "Unemployed"
                 ]
               }
             }
@@ -1103,8 +1146,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "1",
-                  "2"
+                  "Student",
+                  "Unemployed"
                 ]
               }
             }
@@ -1130,8 +1173,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "1",
-                  "2"
+                  "Student",
+                  "Unemployed"
                 ]
               }
             }
@@ -1157,8 +1200,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "1",
-                  "2"
+                  "Student",
+                  "Unemployed"
                 ]
               }
             }
@@ -1177,7 +1220,8 @@
             "0",
             "15"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_substances_used",
@@ -1221,7 +1265,8 @@
             "ADHD medication": "substance_ADHD_YN",
             "Opioids": "substance_opioid_YN",
             "Beta-blockers": "substance_betablocker_YN"
-          }
+          },
+          "dependencies": []
         },
         {
           "id": "substance_sedative_prescribed",
@@ -1287,7 +1332,8 @@
             "Yes, I used to smoke",
             "Yes"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_smoke_quit",
@@ -1300,7 +1346,7 @@
               "questionId": "demog_smoke_ever",
               "condition": {
                 "type": "equals",
-                "value": "2"
+                "value": "Yes"
               }
             }
           ]
@@ -1316,7 +1362,7 @@
               "questionId": "demog_smoke_ever",
               "condition": {
                 "type": "notEquals",
-                "value": "0"
+                "value": "No, I never smoked"
               }
             }
           ]
@@ -1340,7 +1386,7 @@
               "questionId": "demog_smoke_ever",
               "condition": {
                 "type": "equals",
-                "value": "1"
+                "value": "Yes, I used to smoke"
               }
             }
           ]
@@ -1364,7 +1410,7 @@
               "questionId": "demog_smoke_ever",
               "condition": {
                 "type": "equals",
-                "value": "1"
+                "value": "Yes, I used to smoke"
               }
             }
           ]
@@ -1381,7 +1427,8 @@
             "2 to 3 times per week",
             "4 times a week or more"
           ],
-          "section": "Demographics & lifestyle"
+          "section": "Demographics & lifestyle",
+          "dependencies": []
         },
         {
           "id": "demog_alc_today_num",
@@ -1402,7 +1449,7 @@
               "questionId": "demog_alc_freq",
               "condition": {
                 "type": "notEquals",
-                "value": "0"
+                "value": "Never"
               }
             }
           ]
@@ -1426,7 +1473,7 @@
               "questionId": "demog_alc_freq",
               "condition": {
                 "type": "notEquals",
-                "value": "0"
+                "value": "Never"
               }
             }
           ]
@@ -1436,7 +1483,8 @@
           "text": "You are all done! Thanks so much for participating, you have earned your bragging rights as HEADLINER on Lowlands' smallest stage!",
           "type": "textblock",
           "validation": "none",
-          "section": "End of questionnaire"
+          "section": "End of questionnaire",
+          "dependencies": []
         }
       ]
     }
