@@ -535,7 +535,7 @@
               "questionId": "hair_sample_YN",
               "condition": {
                 "type": "notEquals",
-                "value": "Ja"
+                "value": "Nee"
               }
             }
           ]
@@ -574,7 +574,15 @@
             "> 3 keer"
           ],
           "section": "Hair sample — Donation & chemical history",
-          "dependencies": []
+          "dependencies": [
+            {
+              "questionId": "hair_sample_YN",
+              "condition": {
+                "type": "notEquals",
+                "value": "Nee"
+              }
+            }
+          ]
         },
         {
           "id": "hair_steroid_YN",
@@ -586,7 +594,15 @@
             "Ja, welke:"
           ],
           "section": "Hair sample — Donation & chemical history",
-          "dependencies": []
+          "dependencies": [
+            {
+              "questionId": "hair_sample_YN",
+              "condition": {
+                "type": "notEquals",
+                "value": "Nee"
+              }
+            }
+          ]
         },
         {
           "id": "hair_steroid_substance",
@@ -675,7 +691,15 @@
             "Anders, (soort en naam):"
           ],
           "section": "Hair sample — Donation & chemical history",
-          "dependencies": []
+          "dependencies": [
+            {
+              "questionId": "hair_sample_YN",
+              "condition": {
+                "type": "notEquals",
+                "value": "Nee"
+              }
+            }
+          ]
         },
         {
           "id": "hair_contraception_otherpill",
