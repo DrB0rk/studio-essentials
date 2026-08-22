@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 9,
   "language": "en",
   "title": "AMS Studio Participant Questionnaires (EN)",
   "sourceMd": "QualtricsQuestions.html",
@@ -1131,7 +1131,7 @@
               "questionId": "demog_employment",
               "condition": {
                 "type": "equals",
-                "value": "Student"
+                "value": "Employed"
               }
             }
           ]

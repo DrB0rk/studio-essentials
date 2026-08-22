@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 9,
   "language": "nl",
   "title": "AMS Studio Deelnemersvragenlijsten (NL)",
   "sourceMd": "QualtricsQuestions.html",
@@ -1131,7 +1131,7 @@
               "questionId": "demog_employment",
               "condition": {
                 "type": "equals",
-                "value": "Student"
+                "value": "Werkend"
               }
             }
           ]
