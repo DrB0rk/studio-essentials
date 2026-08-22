@@ -1,10 +1,10 @@
 {
-  "version": 9,
+  "version": 10,
   "language": "en",
   "title": "AMS Studio Participant Questionnaires (EN)",
   "sourceMd": "QualtricsQuestions.html",
   "sourceMdPath": "Qualtrics Questions/QualtricsQuestions.html",
-  "fetchedAt": "2026-08-21T00:00:00Z",
+  "fetchedAt": "2026-08-22T00:00:00Z",
   "slots": [
     {
       "id": "q0",
@@ -557,7 +557,7 @@
               "questionId": "hair_dye_YN",
               "condition": {
                 "type": "equals",
-                "value": "No"
+                "value": "Yes"
               }
             }
           ]
@@ -991,7 +991,7 @@
               "questionId": "interv_contact_YN",
               "condition": {
                 "type": "equals",
-                "value": "No"
+                "value": "Yes"
               }
             }
           ]
@@ -1149,15 +1149,7 @@
             "Higher education (Bachelor, Master, HBO)"
           ],
           "section": "Demographics & lifestyle",
-          "dependencies": [
-            {
-              "questionId": "demog_employment",
-              "condition": {
-                "type": "equals",
-                "value": "Unemployed"
-              }
-            }
-          ]
+          "dependencies": []
         },
         {
           "id": "demog_edu_lvl_w",
@@ -1172,15 +1164,7 @@
             "Higher education (Bachelor, Master, HBO)"
           ],
           "section": "Demographics & lifestyle",
-          "dependencies": [
-            {
-              "questionId": "demog_employment",
-              "condition": {
-                "type": "notEquals",
-                "value": "Unemployed"
-              }
-            }
-          ]
+          "dependencies": []
         },
         {
           "id": "bat_ex1",
@@ -1202,8 +1186,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "Student",
-                  "Unemployed"
+                  "Employed",
+                  "Student"
                 ]
               }
             }
@@ -1230,8 +1214,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "Student",
-                  "Unemployed"
+                  "Employed",
+                  "Student"
                 ]
               }
             }
@@ -1257,8 +1241,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "Student",
-                  "Unemployed"
+                  "Employed",
+                  "Student"
                 ]
               }
             }
@@ -1284,8 +1268,8 @@
               "condition": {
                 "type": "containsAny",
                 "value": [
-                  "Student",
-                  "Unemployed"
+                  "Employed",
+                  "Student"
                 ]
               }
             }
@@ -1430,7 +1414,7 @@
               "questionId": "demog_smoke_ever",
               "condition": {
                 "type": "equals",
-                "value": "Yes"
+                "value": "Yes, I used to smoke"
               }
             }
           ]
@@ -1470,7 +1454,7 @@
               "questionId": "demog_smoke_ever",
               "condition": {
                 "type": "equals",
-                "value": "Yes, I used to smoke"
+                "value": "Yes"
               }
             }
           ]
@@ -1494,7 +1478,7 @@
               "questionId": "demog_smoke_ever",
               "condition": {
                 "type": "equals",
-                "value": "Yes, I used to smoke"
+                "value": "Yes"
               }
             }
           ]
