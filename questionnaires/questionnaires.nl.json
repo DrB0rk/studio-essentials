@@ -1411,7 +1411,7 @@
         {
           "id": "demog_smoke_quit",
           "text": "Hoeveel jaar geleden ben je gestopt met roken?",
-          "type": "open",
+          "type": "range",
           "validation": "numeric",
           "section": "Demographics & lifestyle",
           "dependencies": [
@@ -1422,12 +1422,20 @@
                 "value": "Ja, ik heb vroeger gerookt"
               }
             }
+          ],
+          "range": [
+            0,
+            30
+          ],
+          "rangeLabels": [
+            "0",
+            "30"
           ]
         },
         {
           "id": "demog_smoke_duration",
           "text": "Hoeveel jaar heb je in totaal gerookt?",
-          "type": "open",
+          "type": "range",
           "validation": "numeric",
           "section": "Demographics & lifestyle",
           "dependencies": [
@@ -1438,6 +1446,14 @@
                 "value": "Nee, ik heb nooit gerookt"
               }
             }
+          ],
+          "range": [
+            0,
+            60
+          ],
+          "rangeLabels": [
+            "0",
+            "60"
           ]
         },
         {

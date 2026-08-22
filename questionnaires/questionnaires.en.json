@@ -1411,7 +1411,7 @@
         {
           "id": "demog_smoke_quit",
           "text": "How many years ago did you quit?",
-          "type": "open",
+          "type": "range",
           "validation": "numeric",
           "section": "Demographics & lifestyle",
           "dependencies": [
@@ -1422,12 +1422,20 @@
                 "value": "Yes, I used to smoke"
               }
             }
+          ],
+          "range": [
+            0,
+            30
+          ],
+          "rangeLabels": [
+            "0",
+            "30"
           ]
         },
         {
           "id": "demog_smoke_duration",
           "text": "For how many years in total have you smoked?",
-          "type": "open",
+          "type": "range",
           "validation": "numeric",
           "section": "Demographics & lifestyle",
           "dependencies": [
@@ -1438,6 +1446,14 @@
                 "value": "No, I never smoked"
               }
             }
+          ],
+          "range": [
+            0,
+            60
+          ],
+          "rangeLabels": [
+            "0",
+            "60"
           ]
         },
         {
