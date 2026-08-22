@@ -1156,7 +1156,18 @@
             "80"
           ],
           "section": "Demographics & lifestyle",
-          "dependencies": []
+          "dependencies": [
+            {
+              "questionId": "demog_employment",
+              "condition": {
+                "type": "containsAny",
+                "value": [
+                  "Werkend",
+                  "Student"
+                ]
+              }
+            }
+          ]
         },
         {
           "id": "demog_edu_lvl_s",
