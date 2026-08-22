@@ -757,7 +757,8 @@
             "very nervous"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "mood_scale"
+          "sectionExplainer": "mood_scale",
+          "dependencies": []
         },
         {
           "id": "mq_arousal_q2",
@@ -772,7 +773,8 @@
             "very sluggish",
             "very active"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "dependencies": []
         }
       ]
     },
@@ -798,7 +800,8 @@
             "very nervous"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "mood_scale"
+          "sectionExplainer": "mood_scale",
+          "dependencies": []
         },
         {
           "id": "mq_arousal_q3",
@@ -813,7 +816,8 @@
             "very sluggish",
             "very active"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "dependencies": []
         }
       ]
     },
@@ -839,7 +843,8 @@
             "very nervous"
           ],
           "section": "Mood scale",
-          "sectionExplainer": "mood_scale"
+          "sectionExplainer": "mood_scale",
+          "dependencies": []
         },
         {
           "id": "mq_arousal_q4",
@@ -854,7 +859,8 @@
             "very sluggish",
             "very active"
           ],
-          "section": "Mood scale"
+          "section": "Mood scale",
+          "dependencies": []
         }
       ]
     },
@@ -1150,15 +1156,7 @@
             "80"
           ],
           "section": "Demographics & lifestyle",
-          "dependencies": [
-            {
-              "questionId": "demog_employment",
-              "condition": {
-                "type": "equals",
-                "value": "Werkend"
-              }
-            }
-          ]
+          "dependencies": []
         },
         {
           "id": "demog_edu_lvl_s",
@@ -1173,7 +1171,15 @@
             "Higher education (Bachelor, Master, HBO)"
           ],
           "section": "Demographics & lifestyle",
-          "dependencies": []
+          "dependencies": [
+            {
+              "questionId": "demog_employment",
+              "condition": {
+                "type": "equals",
+                "value": "Student"
+              }
+            }
+          ]
         },
         {
           "id": "demog_edu_lvl_w",
@@ -1188,7 +1194,15 @@
             "Higher education (Bachelor, Master, HBO)"
           ],
           "section": "Demographics & lifestyle",
-          "dependencies": []
+          "dependencies": [
+            {
+              "questionId": "demog_employment",
+              "condition": {
+                "type": "notEquals",
+                "value": "Student"
+              }
+            }
+          ]
         },
         {
           "id": "bat_ex1",
@@ -1204,18 +1218,7 @@
             "altijd"
           ],
           "section": "Burnout Assessment Tool (BAT)",
-          "dependencies": [
-            {
-              "questionId": "demog_employment",
-              "condition": {
-                "type": "containsAny",
-                "value": [
-                  "Werkend",
-                  "Student"
-                ]
-              }
-            }
-          ],
+          "dependencies": [],
           "sectionExplainer": "bat_burnout_assessment_tool"
         },
         {
@@ -1232,18 +1235,7 @@
             "altijd"
           ],
           "section": "Burnout Assessment Tool (BAT)",
-          "dependencies": [
-            {
-              "questionId": "demog_employment",
-              "condition": {
-                "type": "containsAny",
-                "value": [
-                  "Werkend",
-                  "Student"
-                ]
-              }
-            }
-          ]
+          "dependencies": []
         },
         {
           "id": "bat_ci4",
@@ -1259,18 +1251,7 @@
             "altijd"
           ],
           "section": "Burnout Assessment Tool (BAT)",
-          "dependencies": [
-            {
-              "questionId": "demog_employment",
-              "condition": {
-                "type": "containsAny",
-                "value": [
-                  "Werkend",
-                  "Student"
-                ]
-              }
-            }
-          ]
+          "dependencies": []
         },
         {
           "id": "bat_ei5",
@@ -1286,18 +1267,7 @@
             "altijd"
           ],
           "section": "Burnout Assessment Tool (BAT)",
-          "dependencies": [
-            {
-              "questionId": "demog_employment",
-              "condition": {
-                "type": "containsAny",
-                "value": [
-                  "Werkend",
-                  "Student"
-                ]
-              }
-            }
-          ]
+          "dependencies": []
         },
         {
           "id": "demog_hours_slept",
